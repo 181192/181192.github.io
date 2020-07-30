@@ -12,7 +12,7 @@ async function main() {
   // Loading it in memory
   await scraper.setup()
 
-  const result = await scraper.run("https://www.linkedin.com/in/kalliainen/")
+  const result = await scraper.run(`https://www.linkedin.com/in/${process.env.LINKEDIN_USERNAME}/`)
 
   // When keepAlive: true, you can manually close the session using the method below.
   // This will free up your system's memory. Otherwise Puppeteer will sit idle in the background consuming memory.
