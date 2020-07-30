@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:linkedin-scraper": "yarn workspace linkedin-scraper build"
+  },
+  "workspaces" : [
+    "linkedin-scraper"
+  ]
+}
