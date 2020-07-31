@@ -75,6 +75,7 @@ module.exports = {
               }) {
                 nodes {
                   nameWithOwner
+                  description
                   url
                 }
               }
