@@ -6,6 +6,7 @@ import Summary from "../summary/summary"
 import Tools from "../tools/tools"
 import WorkHistory from "../work-history/work-history"
 import StarredRepositories from "../starred-repositories/starred-repositories"
+import EducationHistory from "../education-history/education-history"
 
 const MainContent = ({ history, projects, profile, starredRepositories }) => {
   return (
@@ -26,6 +27,7 @@ const MainContent = ({ history, projects, profile, starredRepositories }) => {
       {profile.userProfile.description && <About about={profile.userProfile.description} />}
       <Projects projects={projects} />
       <WorkHistory history={history} />
+      <EducationHistory history={profile.education} />
       <StarredRepositories starredRepositories={starredRepositories} />
     </main>
   )
