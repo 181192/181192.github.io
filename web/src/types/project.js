@@ -3,8 +3,8 @@ import { shape, string, arrayOf } from "prop-types"
 
 export const ProjectType = {
   name: string.isRequired,
-  description: string.isRequired,
-  createdAt: string.isRequired,
+  description: string,
+  createdAt: string,
   nameWithOwner: string.isRequired,
   url: string.isRequired,
   sshUrl: string.isRequired,
