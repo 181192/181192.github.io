@@ -5,8 +5,9 @@ import Skills from "../skills/skills"
 import Summary from "../summary/summary"
 import Tools from "../tools/tools"
 import WorkHistory from "../work-history/work-history"
+import StarredRepositories from "../starred-repositories/starred-repositories"
 
-const MainContent = ({ history, projects, profile }) => {
+const MainContent = ({ history, projects, profile, starredRepositories }) => {
   return (
     <main className="lg:w-2/3 lg:pl-8 xl:pl-12">
       <Summary profile={profile} />
@@ -25,6 +26,7 @@ const MainContent = ({ history, projects, profile }) => {
       {profile.userProfile.description && <About about={profile.userProfile.description} />}
       <Projects projects={projects} />
       <WorkHistory history={history} />
+      <StarredRepositories starredRepositories={starredRepositories} />
     </main>
   )
 }
