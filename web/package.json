@@ -44,7 +44,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "predeploy": "gatsby build && echo 'www.kalli.no' > ./public/CNAME",
+    "deploy": "gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",
