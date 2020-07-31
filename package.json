@@ -4,9 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build:linkedin-scraper": "yarn workspace linkedin-scraper build"
+    "build": "yarn workspace web build",
+    "develop": "yarn workspace web develop",
+    "build:linkedin-scraper": "LINKEDIN_BASE_PATH=../web/content/profile yarn workspace linkedin-scraper build",
+    "build:medium-rss-to-json": "MEDIUM_BASE_PATH=../web/content/medium yarn workspace medium-rss-to-json build"
   },
   "workspaces" : [
-    "linkedin-scraper"
+    "linkedin-scraper",
+    "medium-rss-to-json",
+    "web"
   ]
 }

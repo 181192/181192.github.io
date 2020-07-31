@@ -1,0 +1,145 @@
+{
+    "company": "Stacc Insight AS",
+    "focus": "Exploring Kubernetes & Go",
+    "focus_url": "",
+    "initials": "KALLI",
+    "userProfile": {
+        "fullName": "Kristoffer-Andre Kalliainen",
+        "title": "System Developer i Stacc - moving finance forward",
+        "location": {
+            "city": "Rådal",
+            "province": "Hordaland",
+            "country": "Norway"
+        },
+        "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQH54FzXERv_ug/profile-displayphoto-shrink_200_200/0?e=1601510400&v=beta&t=YDl9wdNFCsONqVnOC73FrM7SZUPC4F9PA5KZ-Ulu984",
+        "description": "",
+        "url": "https://www.linkedin.com/in/kalliainen/"
+    },
+    "experiences": [
+        {
+            "title": "System Developer",
+            "company": "Stacc - moving finance forward",
+            "employmentType": "Heltid",
+            "location": {
+                "city": "Bergen",
+                "province": null,
+                "country": "Norway"
+            },
+            "startDate": "Invalid date",
+            "endDate": "2020-07-31T09:37:01+02:00",
+            "endDateIsPresent": false,
+            "description": null,
+            "durationInDays": null
+        },
+        {
+            "title": "Eier av selvstendig virksomhet",
+            "company": "Kalli IT",
+            "employmentType": "Selvstendig næringsdrivende",
+            "location": {
+                "city": "Bergen",
+                "province": null,
+                "country": null
+            },
+            "startDate": "Invalid date",
+            "endDate": "2020-07-31T09:37:01+02:00",
+            "endDateIsPresent": false,
+            "description": "Kalli IT er ett enkeltpersonforetak som utvikler nettsider for privat- og bedriftskunder. Kalli IT utfører også diverse reparasjoner på mobiltelefoner og datamaskiner. Samt tilby tjenester for programvare hjelp, hente ut data og sikkerhetskopiering av primært datamaskiner.",
+            "durationInDays": null
+        },
+        {
+            "title": "Support Technician",
+            "company": "Marin IT AS",
+            "employmentType": "Deltid",
+            "location": {
+                "city": "Bergen",
+                "province": null,
+                "country": "Norway"
+            },
+            "startDate": "Invalid date",
+            "endDate": "2018-11-01T00:00:00+01:00",
+            "endDateIsPresent": false,
+            "description": null,
+            "durationInDays": null
+        },
+        {
+            "title": "Field Service-Konsulent",
+            "company": "Centric IT Professionals",
+            "employmentType": "Konsulent",
+            "location": {
+                "city": "Bergen",
+                "province": null,
+                "country": "Norway"
+            },
+            "startDate": "2017-04-01T00:00:00+02:00",
+            "endDate": "2018-11-01T00:00:00+01:00",
+            "endDateIsPresent": false,
+            "description": "Field Service-Konsulent",
+            "durationInDays": 580
+        },
+        {
+            "title": "Studentassistent",
+            "company": "Høgskulen på Vestlandet",
+            "employmentType": null,
+            "location": {
+                "city": "Bergen",
+                "province": null,
+                "country": "Norway"
+            },
+            "startDate": "2018-01-01T00:00:00+01:00",
+            "endDate": "2018-06-01T00:00:00+02:00",
+            "endDateIsPresent": false,
+            "description": "Studentassistent i MAT104 - Grunnleggende matematikk for informasjonsteknologi",
+            "durationInDays": 152
+        },
+        {
+            "title": "Bedriftsnavn Mekatronikk AS",
+            "company": null,
+            "employmentType": null,
+            "location": {
+                "city": "Bergen",
+                "province": null,
+                "country": "Norway"
+            },
+            "startDate": "2016-08-01T00:00:00+02:00",
+            "endDate": "Invalid date",
+            "endDateIsPresent": false,
+            "description": "Mekatronikk AS er en moderne produksjonsbedrift med produksjonslinjer for:- Automatisert montering og lodding av overflatemonterte komponenter (OFM)- Manuell myklodding av overflate- og hullmonterte komponenter- Manuell og optisk inspeksjon av lodderesultat- Kabelkonfeksjonering, herunder loddekontaktering, krympekontaktering, knivkontaktering- Elektromekanisk sammenstilling- Test og feilsøking- Konstruksjon og utvikling … se mer",
+            "durationInDays": null
+        },
+        {
+            "title": "Instruktør",
+            "company": "Lær Kidsa Koding!",
+            "employmentType": null,
+            "location": {
+                "city": "Bergen",
+                "province": null,
+                "country": "Norway"
+            },
+            "startDate": "2017-01-01T00:00:00+01:00",
+            "endDate": "2017-06-01T00:00:00+02:00",
+            "endDateIsPresent": false,
+            "description": "Jeg er instruktør for Lær Kidsa Koding! hvor jeg underviser i Scratch, CodeStudio og BBC Micro:Bit på barneskoler. Jeg har holdt kurs på Ulsmåg og Skranevatnet barneskole",
+            "durationInDays": 152
+        }
+    ],
+    "education": [
+        {
+            "schoolName": "Bergen University College (HiB)",
+            "degreeName": "Bachelor's degree",
+            "fieldOfStudy": "Dataprogrammering",
+            "startDate": "2016-01-01T00:00:00+01:00",
+            "endDate": "2019-01-01T00:00:00+01:00",
+            "durationInDays": 1097
+        },
+        {
+            "schoolName": "Knarvik Videregående Skole",
+            "degreeName": null,
+            "fieldOfStudy": "TAF-Elektrofag",
+            "startDate": "2012-01-01T00:00:00+01:00",
+            "endDate": "2016-01-01T00:00:00+01:00",
+            "durationInDays": 1462
+        }
+    ],
+    "volunteerExperiences": [],
+    "skills": []
+}

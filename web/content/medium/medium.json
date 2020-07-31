@@ -1,0 +1,4350 @@
+[
+    {
+        "id": "489c929f02c9",
+        "versionId": "3f0658fcf9e9",
+        "creatorId": "2355dcc4d3de",
+        "homeCollectionId": "5b301f10ddcd",
+        "title": "Go Tutorial: TDD with Go and PostgreSQL [Part II]",
+        "detectedLanguage": "en",
+        "latestVersion": "3f0658fcf9e9",
+        "latestPublishedVersion": "3f0658fcf9e9",
+        "hasUnpublishedEdits": false,
+        "latestRev": 699,
+        "createdAt": 1594743157053,
+        "updatedAt": 1595175172176,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1594752304225,
+        "latestPublishedAt": 1595106264018,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle": "TDD with Go and PostgreSQL",
+            "postDisplay": {
+                "coverless": true
+            }
+        },
+        "virtuals": {
+            "statusForCollection": "APPROVED",
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*Gbi_XNOkPFbWkIkJC7LnBQ.gif",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 500,
+                "originalHeight": 500,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 1569,
+            "imageCount": 6,
+            "readingTime": 6.870754716981132,
+            "subtitle": "TDD with Go and PostgreSQL",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 23,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "go",
+                    "name": "Go",
+                    "postCount": 4118,
+                    "metadata": {
+                        "postCount": 4118,
+                        "coverImage": {
+                            "id": "1*XjLwKES-iJ31O8wfaGL9gA.jpeg",
+                            "originalWidth": 5184,
+                            "originalHeight": 3456,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "api",
+                    "name": "API",
+                    "postCount": 20679,
+                    "metadata": {
+                        "postCount": 20679,
+                        "coverImage": {
+                            "id": "1*7j-JcmBvamEYqONLIzUQKg.jpeg",
+                            "originalWidth": 4928,
+                            "originalHeight": 3264,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "google",
+                    "name": "Google",
+                    "postCount": 65539,
+                    "metadata": {
+                        "postCount": 65539,
+                        "coverImage": {
+                            "id": "1*YvCbXzN9Lj9OQDWsYVLNzw.png",
+                            "originalWidth": 1050,
+                            "originalHeight": 450,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "tutorial",
+                    "name": "Tutorial",
+                    "postCount": 20772,
+                    "metadata": {
+                        "postCount": 20772,
+                        "coverImage": {
+                            "id": "0*1R_ha8qwKNGDfp-S",
+                            "originalWidth": 7952,
+                            "originalHeight": 5304,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "5cFwQ-WMcJU"
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "backend",
+                    "name": "Backend",
+                    "postCount": 2623,
+                    "metadata": {
+                        "postCount": 2623,
+                        "coverImage": {
+                            "id": "1*llz67IO_HCeOzrjI8Iz4sg.jpeg",
+                            "originalWidth": 5332,
+                            "originalHeight": 3725,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+                "entries": [
+                    {
+                        "url": "https://github.com/juancurti/go_tdd_tutorial.git",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://medium.com/@juancurti.it/go-tutorial-tdd-with-go-and-postgresql-part-ii-489c929f02c9?source=your_stories_page---------------------------",
+                        "alts": [
+                            {
+                                "type": 2,
+                                "url": "medium://p/489c929f02c9"
+                            },
+                            {
+                                "type": 3,
+                                "url": "medium://p/489c929f02c9"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://medium.com/@juancurti.it/go-tutorial-getting-started-part-i-f992a711ba49?source=your_stories_page---------------------------",
+                        "alts": [
+                            {
+                                "type": 3,
+                                "url": "medium://p/f992a711ba49"
+                            },
+                            {
+                                "type": 2,
+                                "url": "medium://p/f992a711ba49"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://medium.com/@juancurti.it/go-tutorial-database-queries-on-go-with-postgresql-part-iii-c8907729c2f?source=your_stories_page---------------------------",
+                        "alts": [
+                            {
+                                "type": 3,
+                                "url": "medium://p/c8907729c2f"
+                            },
+                            {
+                                "type": 2,
+                                "url": "medium://p/c8907729c2f"
+                            }
+                        ],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1595106265293
+            },
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 189,
+            "sectionCount": 1,
+            "readingList": 0,
+            "topics": [
+                {
+                    "topicId": "decb52b64abf",
+                    "slug": "programming",
+                    "createdAt": 1493934116328,
+                    "deletedAt": 0,
+                    "image": {
+                        "id": "1*iPa136b1cGEO7lvoXg6uHQ@2x.jpeg",
+                        "originalWidth": 6016,
+                        "originalHeight": 4016
+                    },
+                    "name": "Programming",
+                    "description": "The good, the bad, the buggy.",
+                    "relatedTopics": [],
+                    "visibility": 1,
+                    "relatedTags": [],
+                    "relatedTopicIds": [],
+                    "seoTitle": "Programming News and Articles — Medium",
+                    "type": "Topic"
+                }
+            ]
+        },
+        "coverless": true,
+        "slug": "go-tutorial-tdd-with-go-and-postgresql-part-ii",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 2,
+        "uniqueSlug": "go-tutorial-tdd-with-go-and-postgresql-part-ii-489c929f02c9",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "previewImage",
+                        "type": 4,
+                        "text": "",
+                        "layout": 10,
+                        "metadata": {
+                            "id": "1*Gbi_XNOkPFbWkIkJC7LnBQ.gif",
+                            "originalWidth": 500,
+                            "originalHeight": 500,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "00d3",
+                        "type": 3,
+                        "text": "Go Tutorial: TDD with Go and PostgreSQL [Part II]",
+                        "markups": [
+                            {
+                                "type": 2,
+                                "start": 13,
+                                "end": 49
+                            }
+                        ],
+                        "alignment": 1
+                    },
+                    {
+                        "name": "1b3c",
+                        "type": 3,
+                        "text": "TDD with Go and PostgreSQL",
+                        "markups": [
+                            {
+                                "type": 2,
+                                "start": 0,
+                                "end": 26
+                            }
+                        ],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "TDD with Go and PostgreSQL"
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "5b301f10ddcd",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
+        "notifyFacebook": false,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": true,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isEligibleForRevenue": true,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 1,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "mongerRequestType": 1,
+        "layerCake": 3,
+        "socialTitle": "",
+        "socialDek": "",
+        "editorialPreviewTitle": "",
+        "editorialPreviewDek": "",
+        "curationEligibleAt": 1594752303183,
+        "primaryTopicId": "decb52b64abf",
+        "isProxyPost": false,
+        "proxyPostFaviconUrl": "",
+        "proxyPostProviderName": "",
+        "proxyPostType": 0,
+        "isSuspended": false,
+        "isLimitedState": false,
+        "seoTitle": "",
+        "previewContent2": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "00d3",
+                        "type": 3,
+                        "text": "Go Tutorial: TDD with Go and PostgreSQL [Part II]",
+                        "markups": [
+                            {
+                                "type": 2,
+                                "start": 13,
+                                "end": 49
+                            }
+                        ]
+                    },
+                    {
+                        "name": "d64c",
+                        "type": 4,
+                        "text": "Golang",
+                        "markups": [],
+                        "layout": 1,
+                        "metadata": {
+                            "id": "1*Gbi_XNOkPFbWkIkJC7LnBQ.gif",
+                            "originalWidth": 500,
+                            "originalHeight": 500,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "1b3c",
+                        "type": 3,
+                        "text": "TDD with Go and PostgreSQL",
+                        "markups": [
+                            {
+                                "type": 2,
+                                "start": 0,
+                                "end": 26
+                            }
+                        ]
+                    },
+                    {
+                        "name": "5e11",
+                        "type": 13,
+                        "text": "Introduction",
+                        "markups": []
+                    },
+                    {
+                        "name": "9223",
+                        "type": 1,
+                        "text": "Note: This is a tutorial divided into 3 parts:",
+                        "markups": [
+                            {
+                                "type": 2,
+                                "start": 0,
+                                "end": 46
+                            }
+                        ]
+                    },
+                    {
+                        "name": "56fd",
+                        "type": 10,
+                        "text": "Installing Go",
+                        "markups": [
+                            {
+                                "type": 3,
+                                "start": 0,
+                                "end": 13,
+                                "href": "https://medium.com/@juancurti.it/go-tutorial-getting-started-part-i-f992a711ba49?source=your_stories_page---------------------------",
+                                "title": "",
+                                "rel": "",
+                                "anchorType": 0
+                            },
+                            {
+                                "type": 2,
+                                "start": 0,
+                                "end": 13
+                            }
+                        ]
+                    },
+                    {
+                        "name": "8bd7",
+                        "type": 10,
+                        "text": "TDD with Go and PostgreSQL",
+                        "markups": [
+                            {
+                                "type": 3,
+                                "start": 0,
+                                "end": 26,
+                                "href": "https://medium.com/@juancurti.it/go-tutorial-tdd-with-go-and-postgresql-part-ii-489c929f02c9?source=your_stories_page---------------------------",
+                                "title": "",
+                                "rel": "",
+                                "anchorType": 0
+                            },
+                            {
+                                "type": 2,
+                                "start": 0,
+                                "end": 26
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ae76",
+                        "type": 10,
+                        "text": "Database queries on Go with PostgreSQL",
+                        "markups": [
+                            {
+                                "type": 3,
+                                "start": 0,
+                                "end": 38,
+                                "href": "https://medium.com/@juancurti.it/go-tutorial-database-queries-on-go-with-postgresql-part-iii-c8907729c2f?source=your_stories_page---------------------------",
+                                "title": "",
+                                "rel": "",
+                                "anchorType": 0
+                            },
+                            {
+                                "type": 2,
+                                "start": 0,
+                                "end": 38
+                            }
+                        ]
+                    },
+                    {
+                        "name": "4575",
+                        "type": 3,
+                        "text": "What are we going to build?",
+                        "markups": []
+                    },
+                    {
+                        "name": "99a7",
+                        "type": 1,
+                        "text": "The scope of this project is to build from scratch (Literally, from creating the git repository) an example of REST API with Go, including routing, database-fetching (PostgreSQL) and…",
+                        "markups": []
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "TDD with Go and PostgreSQL"
+        },
+        "cardType": 0,
+        "isDistributionAlertDismissed": false,
+        "isShortform": false,
+        "shortformType": 0,
+        "responsesLocked": false,
+        "isLockedResponse": false,
+        "type": "Post",
+        "author": {
+            "userId": "2355dcc4d3de",
+            "name": "Juan Curti",
+            "username": "juancurti.it",
+            "createdAt": 1590012572940,
+            "imageId": "1*l-KnrCuzzyteoVcgnxVeWg.jpeg",
+            "backgroundImageId": "",
+            "bio": "Freelance Developer from Italy",
+            "twitterScreenName": "",
+            "allowNotes": 1,
+            "mediumMemberAt": 0,
+            "isWriterProgramEnrolled": true,
+            "isSuspended": false,
+            "firstOpenedAndroidApp": 1591645689828,
+            "isMembershipTrialEligible": true,
+            "optInToIceland": false,
+            "type": "User"
+        },
+        "url": "https://medium.com/@juancurti.it/go-tutorial-tdd-with-go-and-postgresql-part-ii-489c929f02c9"
+    },
+    {
+        "id": "2595dd598acc",
+        "versionId": "be4dcb126012",
+        "creatorId": "bb81f3bcf125",
+        "homeCollectionId": "3190dbc755f4",
+        "title": "NATS Streaming Server  in the Node.js World with Kubernetes How-To Guide",
+        "detectedLanguage": "en",
+        "latestVersion": "be4dcb126012",
+        "latestPublishedVersion": "be4dcb126012",
+        "hasUnpublishedEdits": false,
+        "latestRev": 2477,
+        "createdAt": 1590164461144,
+        "updatedAt": 1594316660063,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1590224847139,
+        "latestPublishedAt": 1590320433816,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle": "We will cover introduction to NATS Streaming, how to implement the NATS Streaming Server and its clients (w/ Node.js) in a microservices…",
+            "postDisplay": {
+                "coverless": true
+            }
+        },
+        "virtuals": {
+            "statusForCollection": "APPROVED",
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*yEpxu9ihpvKvrRWEfSomKg.png",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 397,
+                "originalHeight": 205,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 2576,
+            "imageCount": 11,
+            "readingTime": 11.020754716981132,
+            "subtitle": "We will cover introduction to NATS Streaming, how to implement the NATS Streaming Server and its clients (w/ Node.js) in a microservices…",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 10,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "nats-streaming",
+                    "name": "Nats Streaming",
+                    "postCount": 24,
+                    "metadata": {
+                        "postCount": 24,
+                        "coverImage": {
+                            "id": "1*FdlcqyHRBqKJjZq5aSOHyg.png",
+                            "originalWidth": 1604,
+                            "originalHeight": 476,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "kubernetes",
+                    "name": "Kubernetes",
+                    "postCount": 16847,
+                    "metadata": {
+                        "postCount": 16847,
+                        "coverImage": {
+                            "id": "0*4ve38-UVey9BKYr1",
+                            "originalWidth": 3840,
+                            "originalHeight": 2160,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "zvHhKiVuR9M"
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "nodejs",
+                    "name": "Nodejs",
+                    "postCount": 27546,
+                    "metadata": {
+                        "postCount": 27546,
+                        "coverImage": {
+                            "id": "1*FytEuHhSO2yzfnCcP00NgA.jpeg",
+                            "originalWidth": 1920,
+                            "originalHeight": 1097,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "how-to",
+                    "name": "How To",
+                    "postCount": 21221,
+                    "metadata": {
+                        "postCount": 21221,
+                        "coverImage": {
+                            "id": "1*EglhqdV92GmsvS5_gZp04A@2x.png",
+                            "originalWidth": 2800,
+                            "originalHeight": 1000
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "eventbus",
+                    "name": "Eventbus",
+                    "postCount": 83,
+                    "metadata": {
+                        "postCount": 83,
+                        "coverImage": {
+                            "id": "1*ICQkcUULUpt9EUYl_W9Omw.png",
+                            "originalWidth": 1426,
+                            "originalHeight": 526,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+                "entries": [
+                    {
+                        "url": "http://nats-srv:4222'",
+                        "alts": [],
+                        "httpStatus": 0
+                    },
+                    {
+                        "url": "https://nats.io/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://developers.google.com/protocol-buffers/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://hub.docker.com/_/nats-streaming",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.npmjs.com/package/@yemini/common",
+                        "alts": [],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1590320434996
+            },
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 95,
+            "sectionCount": 2,
+            "readingList": 0,
+            "topics": [
+                {
+                    "topicId": "63c6f1f93ee",
+                    "slug": "javascript",
+                    "createdAt": 1493945704961,
+                    "deletedAt": 0,
+                    "image": {
+                        "id": "1*5UyyDJ1ESD11yQNd1UVAaQ@2x.jpeg",
+                        "originalWidth": 5472,
+                        "originalHeight": 3648
+                    },
+                    "name": "Javascript",
+                    "description": "An ode to code.",
+                    "relatedTopics": [],
+                    "visibility": 1,
+                    "relatedTags": [],
+                    "relatedTopicIds": [],
+                    "seoTitle": "Javascript News and Articles — Medium",
+                    "type": "Topic"
+                },
+                {
+                    "topicId": "decb52b64abf",
+                    "slug": "programming",
+                    "createdAt": 1493934116328,
+                    "deletedAt": 0,
+                    "image": {
+                        "id": "1*iPa136b1cGEO7lvoXg6uHQ@2x.jpeg",
+                        "originalWidth": 6016,
+                        "originalHeight": 4016
+                    },
+                    "name": "Programming",
+                    "description": "The good, the bad, the buggy.",
+                    "relatedTopics": [],
+                    "visibility": 1,
+                    "relatedTags": [],
+                    "relatedTopicIds": [],
+                    "seoTitle": "Programming News and Articles — Medium",
+                    "type": "Topic"
+                }
+            ]
+        },
+        "coverless": true,
+        "slug": "nats-streaming-server-in-the-node-js-world-with-kubernetes-how-to-guide",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug": "nats-streaming-server-in-the-node-js-world-with-kubernetes-how-to-guide-2595dd598acc",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "previewImage",
+                        "type": 4,
+                        "text": "",
+                        "layout": 10,
+                        "metadata": {
+                            "id": "1*yEpxu9ihpvKvrRWEfSomKg.png",
+                            "originalWidth": 397,
+                            "originalHeight": 205,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "dabd",
+                        "type": 3,
+                        "text": "NATS Streaming in the Node.js World with Kubernetes How-To Guide",
+                        "markups": [],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "We will cover introduction to NATS Streaming, how to implement the NATS Streaming Server and its clients (w/ Node.js) in a microservices…"
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "3190dbc755f4",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
+        "notifyFacebook": false,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": false,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isEligibleForRevenue": false,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 0,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "mongerRequestType": 1,
+        "layerCake": 3,
+        "socialTitle": "",
+        "socialDek": "",
+        "editorialPreviewTitle": "",
+        "editorialPreviewDek": "",
+        "curationEligibleAt": 0,
+        "primaryTopicId": "decb52b64abf",
+        "isProxyPost": false,
+        "proxyPostFaviconUrl": "",
+        "proxyPostProviderName": "",
+        "proxyPostType": 0,
+        "isSuspended": false,
+        "isLimitedState": false,
+        "seoTitle": "",
+        "previewContent2": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "dabd",
+                        "type": 3,
+                        "text": "NATS Streaming in the Node.js World with Kubernetes How-To Guide",
+                        "markups": []
+                    },
+                    {
+                        "name": "926a",
+                        "type": 1,
+                        "text": "We will cover introduction to NATS Streaming, how to implement the NATS Streaming Server and its clients (w/ Node.js) in a microservices environment, and how to deploy it on k8s.",
+                        "markups": []
+                    },
+                    {
+                        "name": "9241",
+                        "type": 3,
+                        "text": "What is NATS Streaming?",
+                        "markups": []
+                    },
+                    {
+                        "name": "5950",
+                        "type": 1,
+                        "text": "First, you have to understand that NATS and NATS Streaming are two different things!",
+                        "markups": [
+                            {
+                                "type": 1,
+                                "start": 63,
+                                "end": 83
+                            }
+                        ]
+                    },
+                    {
+                        "name": "04b8",
+                        "type": 1,
+                        "text": "While NATS is Lightweight publish-subscribe &…",
+                        "markups": [
+                            {
+                                "type": 1,
+                                "start": 6,
+                                "end": 11
+                            },
+                            {
+                                "type": 1,
+                                "start": 13,
+                                "end": 14
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "We will cover introduction to NATS Streaming, how to implement the NATS Streaming Server and its clients (w/ Node.js) in a microservices…"
+        },
+        "cardType": 0,
+        "isDistributionAlertDismissed": false,
+        "isShortform": false,
+        "shortformType": 0,
+        "responsesLocked": false,
+        "isLockedResponse": false,
+        "type": "Post",
+        "author": {
+            "userId": "bb81f3bcf125",
+            "name": "Matan Yemini",
+            "username": "matanyemini800",
+            "createdAt": 1582910647560,
+            "imageId": "2*VeU4cxcgr2xcBmYo9k8Xtg.jpeg",
+            "backgroundImageId": "",
+            "bio": "",
+            "twitterScreenName": "",
+            "allowNotes": 1,
+            "mediumMemberAt": 1587114858548,
+            "isWriterProgramEnrolled": true,
+            "isSuspended": false,
+            "firstOpenedAndroidApp": 1587123928250,
+            "isMembershipTrialEligible": true,
+            "optInToIceland": false,
+            "type": "User"
+        },
+        "url": "https://medium.com/@matanyemini800/nats-streaming-server-in-the-node-js-world-with-kubernetes-how-to-guide-2595dd598acc"
+    },
+    {
+        "id": "3399576b0f1f",
+        "versionId": "775e66250815",
+        "creatorId": "9c5e70d02da0",
+        "homeCollectionId": "10d1a7495d39",
+        "title": "Individual Kubernetes Clusters vs. Shared Kubernetes Clusters for Development",
+        "detectedLanguage": "en",
+        "latestVersion": "775e66250815",
+        "latestPublishedVersion": "775e66250815",
+        "hasUnpublishedEdits": false,
+        "latestRev": 227,
+        "createdAt": 1593520619414,
+        "updatedAt": 1594923147939,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1591611211000,
+        "latestPublishedAt": 1593693100044,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle": "A comparison of using individual clusters for every developer and a shared cluster for Kubernetes-based development",
+            "postDisplay": {
+                "coverless": true
+            }
+        },
+        "virtuals": {
+            "statusForCollection": "APPROVED",
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*tG6AcJ1b2ComCoVLKcyFmA.png",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 2100,
+                "originalHeight": 1125,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 3061,
+            "imageCount": 3,
+            "readingTime": 12.100943396226416,
+            "subtitle": "A comparison of using individual clusters for every developer and a shared cluster for Kubernetes-based development",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 10,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "kubernetes",
+                    "name": "Kubernetes",
+                    "postCount": 16847,
+                    "metadata": {
+                        "postCount": 16847,
+                        "coverImage": {
+                            "id": "0*4ve38-UVey9BKYr1",
+                            "originalWidth": 3840,
+                            "originalHeight": 2160,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "zvHhKiVuR9M"
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "multitenancy",
+                    "name": "Multitenancy",
+                    "postCount": 149,
+                    "metadata": {
+                        "postCount": 149,
+                        "coverImage": {
+                            "id": "1*hqMsNrUVFqv1VQThD-uSfQ.jpeg",
+                            "originalWidth": 1050,
+                            "originalHeight": 500,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "cloud-native",
+                    "name": "Cloud Native",
+                    "postCount": 1323,
+                    "metadata": {
+                        "postCount": 1323,
+                        "coverImage": {
+                            "id": "0*ebOy7TfGcTiyM0Yh.jpeg",
+                            "originalWidth": 640,
+                            "originalHeight": 400,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "kubernetes-cluster",
+                    "name": "Kubernetes Cluster",
+                    "postCount": 357,
+                    "metadata": {
+                        "postCount": 357,
+                        "coverImage": {
+                            "id": "1*xE7eTbHbKAXTjqS5TKCy5w.png",
+                            "originalWidth": 860,
+                            "originalHeight": 501,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "devops",
+                    "name": "DevOps",
+                    "postCount": 30199,
+                    "metadata": {
+                        "postCount": 30199,
+                        "coverImage": {
+                            "id": "0*4ve38-UVey9BKYr1",
+                            "originalWidth": 3840,
+                            "originalHeight": 2160,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "zvHhKiVuR9M"
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+                "entries": [
+                    {
+                        "url": "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.linkedin.com/company/faundev",
+                        "alts": [],
+                        "httpStatus": 999
+                    },
+                    {
+                        "url": "https://www.cncf.io/blog/2019/06/20/virtual-cluster-extending-namespace-based-multi-tenancy-with-a-cluster-view/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.faun.dev/join?utm_source=medium.com/faun&utm_medium=medium&utm_campaign=faunmediumprebanner",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.faun.dev/join?utm_source=medium.com/faun&utm_medium=medium&utm_campaign=faunmediumbanner",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.facebook.com/groups/364904580892967/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/ibuildthecloud/k3v",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/kiosk-sh/kiosk",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://devspace.cloud",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://unsplash.com/@brenoassis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://news.ycombinator.com/item?id=22486070",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=vLrxOhZ6Wrg",
+                        "alts": [],
+                        "httpStatus": 429
+                    },
+                    {
+                        "url": "https://twitter.com/joinfaun",
+                        "alts": [],
+                        "httpStatus": 429
+                    },
+                    {
+                        "url": "https://instagram.com/fauncommunity/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://loft.sh/blog/local-cluster-vs-remote-cluster-for-kubernetes-based-development/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.facebook.com/faun.dev/",
+                        "alts": [
+                            {
+                                "type": 3,
+                                "url": "fb://page/1658316914401441?referrer=app_link"
+                            },
+                            {
+                                "type": 2,
+                                "url": "fb://page/?id=1658316914401441"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://loft.sh/blog/individual_kubernetes_clusters_vs-_shared_kubernetes_clusters_for_development/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://loft.sh/blog/how-to-save-more-than-2-3-of-engineers-kubernetes-cost/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://loft.sh/blog/the-journey-of-adopting-cloud-native-development/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://loft.sh",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://unsplash.com/@lukevz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://cloud.google.com/kubernetes-engine/pricing",
+                        "alts": [],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1593693102353
+            },
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 70,
+            "sectionCount": 3,
+            "readingList": 0,
+            "topics": [
+                {
+                    "topicId": "decb52b64abf",
+                    "slug": "programming",
+                    "createdAt": 1493934116328,
+                    "deletedAt": 0,
+                    "image": {
+                        "id": "1*iPa136b1cGEO7lvoXg6uHQ@2x.jpeg",
+                        "originalWidth": 6016,
+                        "originalHeight": 4016
+                    },
+                    "name": "Programming",
+                    "description": "The good, the bad, the buggy.",
+                    "relatedTopics": [],
+                    "visibility": 1,
+                    "relatedTags": [],
+                    "relatedTopicIds": [],
+                    "seoTitle": "Programming News and Articles — Medium",
+                    "type": "Topic"
+                }
+            ]
+        },
+        "coverless": true,
+        "slug": "individual-kubernetes-clusters-vs-shared-kubernetes-clusters-for-development",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "https://loft.sh/blog/individual_kubernetes_clusters_vs-_shared_kubernetes_clusters_for_development/",
+        "importedPublishedAt": 1591611211000,
+        "visibility": 2,
+        "uniqueSlug": "individual-kubernetes-clusters-vs-shared-kubernetes-clusters-for-development-3399576b0f1f",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "previewImage",
+                        "type": 4,
+                        "text": "",
+                        "layout": 10,
+                        "metadata": {
+                            "id": "1*tG6AcJ1b2ComCoVLKcyFmA.png",
+                            "originalWidth": 2100,
+                            "originalHeight": 1125,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "8ea4",
+                        "type": 3,
+                        "text": "Individual Kubernetes Clusters vs. Shared Kubernetes Clusters for Development",
+                        "markups": [],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "A comparison of using individual clusters for every developer and a shared cluster for Kubernetes-based development"
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "10d1a7495d39",
+        "newsletterId": "",
+        "webCanonicalUrl": "https://loft.sh/blog/individual_kubernetes_clusters_vs-_shared_kubernetes_clusters_for_development/",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
+        "notifyFacebook": false,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": true,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isEligibleForRevenue": true,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 1,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "mongerRequestType": 1,
+        "layerCake": 4,
+        "socialTitle": "",
+        "socialDek": "",
+        "editorialPreviewTitle": "",
+        "editorialPreviewDek": "",
+        "curationEligibleAt": 1593521432648,
+        "isProxyPost": false,
+        "proxyPostFaviconUrl": "",
+        "proxyPostProviderName": "",
+        "proxyPostType": 0,
+        "isSuspended": false,
+        "isLimitedState": false,
+        "seoTitle": "",
+        "previewContent2": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "8ea4",
+                        "type": 3,
+                        "text": "Individual Kubernetes Clusters vs. Shared Kubernetes Clusters for Development",
+                        "markups": []
+                    },
+                    {
+                        "name": "73a1",
+                        "type": 1,
+                        "text": "A comparison of using individual clusters for every developer and a shared cluster for Kubernetes-based development",
+                        "markups": []
+                    },
+                    {
+                        "name": "1d11",
+                        "type": 4,
+                        "text": "",
+                        "markups": [],
+                        "layout": 1,
+                        "metadata": {
+                            "id": "1*tG6AcJ1b2ComCoVLKcyFmA.png",
+                            "originalWidth": 2100,
+                            "originalHeight": 1125,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "df15",
+                        "type": 1,
+                        "text": "If you are on a higher level of cloud-native development (level 2 or higher according to this article about the typical cloud-native journey of companies), the developers in your team need to have a…",
+                        "markups": [
+                            {
+                                "type": 3,
+                                "start": 89,
+                                "end": 153,
+                                "href": "https://loft.sh/blog/the-journey-of-adopting-cloud-native-development/",
+                                "title": "",
+                                "rel": "",
+                                "anchorType": 0
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "A comparison of using individual clusters for every developer and a shared cluster for Kubernetes-based development"
+        },
+        "cardType": 0,
+        "isDistributionAlertDismissed": false,
+        "isShortform": false,
+        "shortformType": 0,
+        "responsesLocked": false,
+        "isLockedResponse": false,
+        "type": "Post",
+        "author": {
+            "userId": "9c5e70d02da0",
+            "name": "Daniel Thiry",
+            "username": "danielthiry92",
+            "createdAt": 1551319171671,
+            "imageId": "2*FeDrX4qzqDZql7SbrTgbLA.png",
+            "backgroundImageId": "",
+            "bio": "",
+            "twitterScreenName": "",
+            "allowNotes": 1,
+            "mediumMemberAt": 0,
+            "isWriterProgramEnrolled": true,
+            "isSuspended": false,
+            "flirtyThirtyEnabled": true,
+            "firstOpenedAndroidApp": 1574075340649,
+            "isMembershipTrialEligible": true,
+            "optInToIceland": false,
+            "type": "User"
+        },
+        "url": "https://medium.com/@danielthiry92/individual-kubernetes-clusters-vs-shared-kubernetes-clusters-for-development-3399576b0f1f"
+    },
+    {
+        "id": "91bc27be04a1",
+        "versionId": "69736a454f6f",
+        "creatorId": "eab1014bfe9e",
+        "homeCollectionId": "",
+        "title": "Using Nginx-Ingress as a Static Cache",
+        "detectedLanguage": "en",
+        "latestVersion": "69736a454f6f",
+        "latestPublishedVersion": "69736a454f6f",
+        "hasUnpublishedEdits": false,
+        "latestRev": 2562,
+        "createdAt": 1564004542974,
+        "updatedAt": 1576596639353,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1564158075419,
+        "latestPublishedAt": 1576596639188,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle": "Levering Nginx when a cloud CDN is not an option yet.",
+            "postDisplay": {
+                "coverless": true
+            }
+        },
+        "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*5EOIImDymebDd4_4JNA13A.jpeg",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 2000,
+                "originalHeight": 1333,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 1253,
+            "imageCount": 3,
+            "readingTime": 5.278301886792453,
+            "subtitle": "Levering Nginx when a cloud CDN is not an option yet.",
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 22,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "nginx",
+                    "name": "Nginx",
+                    "postCount": 2953,
+                    "metadata": {
+                        "postCount": 2953,
+                        "coverImage": {
+                            "id": "1*6zSRLgqo5KMcA-Hy4262bw.png",
+                            "originalWidth": 350,
+                            "originalHeight": 371,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "google-cloud-platform",
+                    "name": "Google Cloud Platform",
+                    "postCount": 9413,
+                    "metadata": {
+                        "postCount": 9413,
+                        "coverImage": {
+                            "id": "1*mjFhhGTznoFC6pV-lnWCSQ.png",
+                            "originalWidth": 1034,
+                            "originalHeight": 451,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "kubernetes",
+                    "name": "Kubernetes",
+                    "postCount": 16847,
+                    "metadata": {
+                        "postCount": 16847,
+                        "coverImage": {
+                            "id": "0*4ve38-UVey9BKYr1",
+                            "originalWidth": 3840,
+                            "originalHeight": 2160,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "zvHhKiVuR9M"
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "cdn",
+                    "name": "Cdn",
+                    "postCount": 859,
+                    "metadata": {
+                        "postCount": 859,
+                        "coverImage": {
+                            "id": "0*kLSr9xs-2k5A6iHx",
+                            "originalWidth": 1600,
+                            "originalHeight": 877,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "cache",
+                    "name": "Cache",
+                    "postCount": 939,
+                    "metadata": {
+                        "postCount": 939,
+                        "coverImage": {
+                            "id": "1*lQ9VS24tsdfIHw0MGU8Jjw.jpeg",
+                            "originalWidth": 2400,
+                            "originalHeight": 1348
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 3,
+            "links": {
+                "entries": [
+                    {
+                        "url": "https://unsplash.com?utm_source=medium&utm_medium=referral",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "http://upstream_balancer",
+                        "alts": [],
+                        "httpStatus": 0
+                    },
+                    {
+                        "url": "https://unsplash.com/@seantookthese?utm_source=medium&utm_medium=referral",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://unsplash.com/@andresabogabir?utm_source=medium&utm_medium=referral",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://mysite.example.com/static/logo.png",
+                        "alts": [],
+                        "httpStatus": 0
+                    },
+                    {
+                        "url": "https://kubernetes.github.io/ingress-nginx/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/configmap/#http-snippet",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "http://whitenoise.evans.io/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://docs.nginx.com/nginx/admin-guide/content-cache/content-caching/#purge",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://docs.nginx.com/nginx/admin-guide/content-cache/content-caching/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/helm/charts/tree/master/stable/nginx-ingress",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://cloud.google.com/cdn/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://cloud.google.com/cdn/docs/caching",
+                        "alts": [],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1576596640548
+            },
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 137,
+            "sectionCount": 2,
+            "readingList": 0,
+            "topics": [
+                {
+                    "topicId": "decb52b64abf",
+                    "slug": "programming",
+                    "createdAt": 1493934116328,
+                    "deletedAt": 0,
+                    "image": {
+                        "id": "1*iPa136b1cGEO7lvoXg6uHQ@2x.jpeg",
+                        "originalWidth": 6016,
+                        "originalHeight": 4016
+                    },
+                    "name": "Programming",
+                    "description": "The good, the bad, the buggy.",
+                    "relatedTopics": [],
+                    "visibility": 1,
+                    "relatedTags": [],
+                    "relatedTopicIds": [],
+                    "seoTitle": "Programming News and Articles — Medium",
+                    "type": "Topic"
+                }
+            ]
+        },
+        "coverless": true,
+        "slug": "using-nginx-ingress-as-a-static-cache",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug": "using-nginx-ingress-as-a-static-cache-91bc27be04a1",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "previewImage",
+                        "type": 4,
+                        "text": "",
+                        "layout": 10,
+                        "metadata": {
+                            "id": "1*5EOIImDymebDd4_4JNA13A.jpeg",
+                            "originalWidth": 2000,
+                            "originalHeight": 1333,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "previewTitle",
+                        "type": 3,
+                        "text": "Using Nginx-Ingress as a Static Cache",
+                        "alignment": 1
+                    },
+                    {
+                        "name": "previewSubtitle",
+                        "type": 13,
+                        "text": "Levering Nginx when a cloud CDN is not an option yet.",
+                        "alignment": 1
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "Levering Nginx when a cloud CDN is not an option yet."
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
+        "notifyFacebook": false,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": false,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isEligibleForRevenue": false,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 0,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "mongerRequestType": 1,
+        "layerCake": 0,
+        "socialTitle": "",
+        "socialDek": "",
+        "editorialPreviewTitle": "",
+        "editorialPreviewDek": "",
+        "curationEligibleAt": 1564158073948,
+        "isProxyPost": false,
+        "proxyPostFaviconUrl": "",
+        "proxyPostProviderName": "",
+        "proxyPostType": 0,
+        "isSuspended": false,
+        "isLimitedState": false,
+        "seoTitle": "",
+        "previewContent2": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "3787",
+                        "type": 4,
+                        "text": "",
+                        "markups": [],
+                        "layout": 1,
+                        "metadata": {
+                            "id": "1*5EOIImDymebDd4_4JNA13A.jpeg",
+                            "originalWidth": 2000,
+                            "originalHeight": 1333,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "3a5e",
+                        "type": 3,
+                        "text": "Using Nginx-Ingress as a Static Cache for Assets Inside Kubernetes",
+                        "markups": []
+                    },
+                    {
+                        "name": "eea7",
+                        "type": 13,
+                        "text": "Optimizing Nginx on Kubernetes Without a Adding a Cloud CDN.",
+                        "markups": []
+                    },
+                    {
+                        "name": "0af5",
+                        "type": 1,
+                        "text": "Kubernetes clusters often use the NGINX Ingress Controller. This provides a nice solution when hosting many websites. Yet all contents is retrieved from the back-end pods at every request. Would it be possible to cache that?",
+                        "markups": [
+                            {
+                                "type": 3,
+                                "start": 34,
+                                "end": 58,
+                                "href": "https://kubernetes.github.io/ingress-nginx/",
+                                "title": "",
+                                "rel": "noopener",
+                                "anchorType": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "4276",
+                        "type": 1,
+                        "text": "One of the wonderful features of Nginx is content caching. So can we apply…",
+                        "markups": [
+                            {
+                                "type": 3,
+                                "start": 42,
+                                "end": 57,
+                                "href": "https://docs.nginx.com/nginx/admin-guide/content-cache/content-caching/",
+                                "title": "",
+                                "rel": "noopener",
+                                "anchorType": 0
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "Levering Nginx when a cloud CDN is not an option yet."
+        },
+        "cardType": 0,
+        "isDistributionAlertDismissed": false,
+        "isShortform": false,
+        "shortformType": 0,
+        "responsesLocked": false,
+        "isLockedResponse": false,
+        "type": "Post",
+        "author": {
+            "userId": "eab1014bfe9e",
+            "name": "Diederik van der Boor",
+            "username": "vdboor",
+            "createdAt": 1512039677685,
+            "imageId": "1*odmuCzApjSMnO5OgAeS7Dw.jpeg",
+            "backgroundImageId": "",
+            "bio": "What happened to “full stack” development? Django, Containers, Devops and Linux",
+            "twitterScreenName": "vdboor",
+            "allowNotes": 1,
+            "mediumMemberAt": 0,
+            "isWriterProgramEnrolled": true,
+            "isSuspended": false,
+            "isMembershipTrialEligible": true,
+            "optInToIceland": false,
+            "type": "User"
+        },
+        "url": "https://medium.com/@vdboor/using-nginx-ingress-as-a-static-cache-91bc27be04a1"
+    },
+    {
+        "id": "95325b2d3c89",
+        "versionId": "f57e113628b9",
+        "creatorId": "97d099c3810d",
+        "homeCollectionId": "c07d41d748a0",
+        "title": "DevOps and Databases — The forgotten automation",
+        "detectedLanguage": "en",
+        "latestVersion": "f57e113628b9",
+        "latestPublishedVersion": "f57e113628b9",
+        "hasUnpublishedEdits": false,
+        "latestRev": 685,
+        "createdAt": 1587950273045,
+        "updatedAt": 1588265483437,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1588188058565,
+        "latestPublishedAt": 1588265483205,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle": "How to bring automation into managing stateful databases",
+            "postDisplay": {
+                "coverless": true
+            }
+        },
+        "virtuals": {
+            "statusForCollection": "APPROVED",
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "0*7EM_33uoR9UdASR2.png",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 640,
+                "originalHeight": 360,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 1674,
+            "imageCount": 7,
+            "readingTime": 7.3669811320754715,
+            "subtitle": "How to bring automation into managing stateful databases",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 144,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "database",
+                    "name": "Database",
+                    "postCount": 12306,
+                    "metadata": {
+                        "postCount": 12306,
+                        "coverImage": {
+                            "id": "1*IyWh6JoVzdhH_NbAL6AqVg.png",
+                            "originalWidth": 1280,
+                            "originalHeight": 1118,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "devops",
+                    "name": "DevOps",
+                    "postCount": 30199,
+                    "metadata": {
+                        "postCount": 30199,
+                        "coverImage": {
+                            "id": "0*4ve38-UVey9BKYr1",
+                            "originalWidth": 3840,
+                            "originalHeight": 2160,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "zvHhKiVuR9M"
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "docker",
+                    "name": "Docker",
+                    "postCount": 26959,
+                    "metadata": {
+                        "postCount": 26959,
+                        "coverImage": {
+                            "id": "1*Fn5GItDauGz_0FC1v5sjzw.gif",
+                            "originalWidth": 979,
+                            "originalHeight": 513,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "security",
+                    "name": "Security",
+                    "postCount": 63258,
+                    "metadata": {
+                        "postCount": 63258,
+                        "coverImage": {
+                            "id": "1*mjFhhGTznoFC6pV-lnWCSQ.png",
+                            "originalWidth": 1034,
+                            "originalHeight": 451,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "data-science",
+                    "name": "Data Science",
+                    "postCount": 92792,
+                    "metadata": {
+                        "postCount": 92792,
+                        "coverImage": {
+                            "id": "1*9ymw6njkHgd-kuTWrxnRIQ.jpeg",
+                            "originalWidth": 640,
+                            "originalHeight": 426,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 3,
+            "links": {
+                "entries": [
+                    {
+                        "url": "https://unsplash.com?utm_source=medium&utm_medium=referral",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://tr1.cbsistatic.com/hub/i/r/2019/08/05/7c395d36-5c3f-40a4-bee6-dc054d98f726/thumbnail/770x578/8036f66c20cbffb5a46be8730a3a3a2b/istock-942607134-1.jpg",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.xenonstack.com/wp-content/uploads/xenonstack-devops-for-databases.png",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://flywaydb.org/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://medium.com/devops-dudes",
+                        "alts": [
+                            {
+                                "type": 2,
+                                "url": "medium://devops-dudes"
+                            },
+                            {
+                                "type": 3,
+                                "url": "medium://devops-dudes"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://spirion.com/wp-content/uploads/2019/10/SPIRION-Data_Lifecycle-2k-1024x520.jpg",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.datical.com/whitepapers/survey-the-state-of-database-deployments-in-application-delivery-2019/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.vaultproject.io/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://unsplash.com/@tinaflour?utm_source=medium&utm_medium=referral",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://unsplash.com/@campaign_creators?utm_source=medium&utm_medium=referral",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://twitter.com/DevopsDudes",
+                        "alts": [
+                            {
+                                "type": 3,
+                                "url": "twitter://user?screen_name=DevopsDudes"
+                            },
+                            {
+                                "type": 2,
+                                "url": "twitter://user?screen_name=DevopsDudes"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://unsplash.com/@thenewmalcolm?utm_source=medium&utm_medium=referral",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/faker-ruby/faker",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://unsplash.com/@jankolar?utm_source=medium&utm_medium=referral",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.facebook.com/devopsdudes",
+                        "alts": [
+                            {
+                                "type": 3,
+                                "url": "fb://page/104195741246935?referrer=app_link"
+                            },
+                            {
+                                "type": 2,
+                                "url": "fb://page/?id=104195741246935"
+                            }
+                        ],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1588265483940
+            },
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 571,
+            "sectionCount": 9,
+            "readingList": 0,
+            "topics": [
+                {
+                    "topicId": "ae5d4995e225",
+                    "slug": "data-science",
+                    "createdAt": 1493923906289,
+                    "deletedAt": 0,
+                    "image": {
+                        "id": "1*NHWOEki_ncCX-xzbKtkEWw@2x.jpeg",
+                        "originalWidth": 5760,
+                        "originalHeight": 3840
+                    },
+                    "name": "Data Science",
+                    "description": "Query this.",
+                    "relatedTopics": [],
+                    "visibility": 1,
+                    "relatedTags": [],
+                    "relatedTopicIds": [],
+                    "seoTitle": "Data Science News and Articles — Medium",
+                    "type": "Topic"
+                },
+                {
+                    "topicId": "decb52b64abf",
+                    "slug": "programming",
+                    "createdAt": 1493934116328,
+                    "deletedAt": 0,
+                    "image": {
+                        "id": "1*iPa136b1cGEO7lvoXg6uHQ@2x.jpeg",
+                        "originalWidth": 6016,
+                        "originalHeight": 4016
+                    },
+                    "name": "Programming",
+                    "description": "The good, the bad, the buggy.",
+                    "relatedTopics": [],
+                    "visibility": 1,
+                    "relatedTags": [],
+                    "relatedTopicIds": [],
+                    "seoTitle": "Programming News and Articles — Medium",
+                    "type": "Topic"
+                }
+            ]
+        },
+        "coverless": true,
+        "slug": "devops-and-databases-the-forgotten-automation",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 2,
+        "uniqueSlug": "devops-and-databases-the-forgotten-automation-95325b2d3c89",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "previewImage",
+                        "type": 4,
+                        "text": "",
+                        "layout": 10,
+                        "metadata": {
+                            "id": "0*7EM_33uoR9UdASR2.png",
+                            "originalWidth": 640,
+                            "originalHeight": 360,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "1261",
+                        "type": 3,
+                        "text": "DevOps and Databases — The forgotten automation",
+                        "markups": [],
+                        "alignment": 1
+                    },
+                    {
+                        "name": "58fa",
+                        "type": 13,
+                        "text": "How to bring automation into managing stateful…",
+                        "markups": [],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "How to bring automation into managing stateful databases"
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "c07d41d748a0",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
+        "notifyFacebook": false,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": true,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isEligibleForRevenue": true,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 1,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "mongerRequestType": 1,
+        "layerCake": 3,
+        "socialTitle": "",
+        "socialDek": "",
+        "editorialPreviewTitle": "",
+        "editorialPreviewDek": "",
+        "curationEligibleAt": 1588188057688,
+        "primaryTopicId": "decb52b64abf",
+        "isProxyPost": false,
+        "proxyPostFaviconUrl": "",
+        "proxyPostProviderName": "",
+        "proxyPostType": 0,
+        "isSuspended": false,
+        "isLimitedState": false,
+        "seoTitle": "",
+        "previewContent2": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "1261",
+                        "type": 3,
+                        "text": "DevOps and Databases — The forgotten automation",
+                        "markups": []
+                    },
+                    {
+                        "name": "58fa",
+                        "type": 13,
+                        "text": "How to bring automation into managing stateful databases",
+                        "markups": []
+                    },
+                    {
+                        "name": "e5b6",
+                        "type": 4,
+                        "text": "Source: https://www.xenonstack.com/wp-content/uploads/xenonstack-devops-for-databases.png",
+                        "markups": [
+                            {
+                                "type": 3,
+                                "start": 8,
+                                "end": 89,
+                                "href": "https://www.xenonstack.com/wp-content/uploads/xenonstack-devops-for-databases.png",
+                                "title": "",
+                                "rel": "nofollow",
+                                "anchorType": 0
+                            }
+                        ],
+                        "layout": 1,
+                        "metadata": {
+                            "id": "0*7EM_33uoR9UdASR2.png",
+                            "originalWidth": 640,
+                            "originalHeight": 360,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "9125",
+                        "type": 1,
+                        "text": "Do you see that guys? Are we really not going to talk about it? That gigantic elephant is literally standing right in the middle of our conference room and everyone is just going to pretend like it doesn’t exist?",
+                        "markups": []
+                    },
+                    {
+                        "name": "cff4",
+                        "type": 1,
+                        "text": "I’m of course referring to the Database aspect of your application…",
+                        "markups": [
+                            {
+                                "type": 1,
+                                "start": 31,
+                                "end": 39
+                            },
+                            {
+                                "type": 1,
+                                "start": 205,
+                                "end": 210
+                            },
+                            {
+                                "type": 2,
+                                "start": 68,
+                                "end": 133
+                            },
+                            {
+                                "type": 2,
+                                "start": 221,
+                                "end": 303
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "How to bring automation into managing stateful databases"
+        },
+        "cardType": 0,
+        "isDistributionAlertDismissed": true,
+        "isShortform": false,
+        "shortformType": 0,
+        "responsesLocked": false,
+        "isLockedResponse": false,
+        "type": "Post",
+        "author": {
+            "userId": "97d099c3810d",
+            "name": "Tj Blogumas",
+            "username": "tjblogumas",
+            "createdAt": 1488308664141,
+            "imageId": "2*9rmYS8I7kcZ5LG2eEiC4qQ.png",
+            "backgroundImageId": "",
+            "bio": "DevOps Architect @ a large financial institution. DevOps practitioner for over a decade. Technology and Automation enthusiast.",
+            "twitterScreenName": "kcblogumi",
+            "allowNotes": 1,
+            "mediumMemberAt": 1564454622000,
+            "isWriterProgramEnrolled": true,
+            "isSuspended": false,
+            "firstOpenedAndroidApp": 1567380467567,
+            "isMembershipTrialEligible": true,
+            "optInToIceland": false,
+            "type": "User"
+        },
+        "url": "https://medium.com/@tjblogumas/devops-and-databases-the-forgotten-automation-95325b2d3c89"
+    },
+    {
+        "id": "de161cc52325",
+        "versionId": "6fe08f320e0d",
+        "creatorId": "e57e2ec3b649",
+        "homeCollectionId": "5b301f10ddcd",
+        "title": "Fleet Management of Kubernetes Clusters at Scale — Rancher’s Fleet",
+        "detectedLanguage": "en",
+        "latestVersion": "6fe08f320e0d",
+        "latestPublishedVersion": "6fe08f320e0d",
+        "hasUnpublishedEdits": false,
+        "latestRev": 458,
+        "createdAt": 1588158718294,
+        "updatedAt": 1588369263789,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1588159736978,
+        "latestPublishedAt": 1588159913852,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle": "Deploying standalone Kubernetes clusters to edge locations, heterogenous cloud platforms, on-premise data centers etc. is a common pattern…",
+            "postDisplay": {
+                "coverless": true
+            }
+        },
+        "virtuals": {
+            "statusForCollection": "APPROVED",
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*ZcViIhoZ0aVoUT2I30yxlA.png",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 2858,
+                "originalHeight": 1578,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 1884,
+            "imageCount": 32,
+            "readingTime": 9.459433962264152,
+            "subtitle": "Deploying standalone Kubernetes clusters to edge locations, heterogenous cloud platforms, on-premise data centers etc. is a common pattern…",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 17,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "rancher-labs",
+                    "name": "Rancher Labs",
+                    "postCount": 9,
+                    "metadata": {
+                        "postCount": 9,
+                        "coverImage": {
+                            "id": "1*ZcViIhoZ0aVoUT2I30yxlA.png",
+                            "originalWidth": 2858,
+                            "originalHeight": 1578,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "rancher",
+                    "name": "Rancher",
+                    "postCount": 371,
+                    "metadata": {
+                        "postCount": 371,
+                        "coverImage": {
+                            "id": "0*TiwY8Qju51_ctrqa.png",
+                            "originalWidth": 2268,
+                            "originalHeight": 1274,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "kubernetes",
+                    "name": "Kubernetes",
+                    "postCount": 16847,
+                    "metadata": {
+                        "postCount": 16847,
+                        "coverImage": {
+                            "id": "0*4ve38-UVey9BKYr1",
+                            "originalWidth": 3840,
+                            "originalHeight": 2160,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "zvHhKiVuR9M"
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "fleet-management",
+                    "name": "Fleet Management",
+                    "postCount": 842,
+                    "metadata": {
+                        "postCount": 842,
+                        "coverImage": {
+                            "id": "1*hFZN7LMGkMJlDtqBfWcHaw.jpeg",
+                            "originalWidth": 6000,
+                            "originalHeight": 4000,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "edge-computing",
+                    "name": "Edge Computing",
+                    "postCount": 1507,
+                    "metadata": {
+                        "postCount": 1507,
+                        "coverImage": {
+                            "id": "1*y7JsVTCpcHGpwipt_Bwf8A.png",
+                            "originalWidth": 768,
+                            "originalHeight": 385,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+                "entries": [
+                    {
+                        "url": "https://github.com/rancher/dashboard",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://kubernetes.io/docs/concepts/architecture/controller/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/rancher/fleet",
+                        "alts": [],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1588159914458
+            },
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 60,
+            "sectionCount": 2,
+            "readingList": 0,
+            "topics": [
+                {
+                    "topicId": "decb52b64abf",
+                    "slug": "programming",
+                    "createdAt": 1493934116328,
+                    "deletedAt": 0,
+                    "image": {
+                        "id": "1*iPa136b1cGEO7lvoXg6uHQ@2x.jpeg",
+                        "originalWidth": 6016,
+                        "originalHeight": 4016
+                    },
+                    "name": "Programming",
+                    "description": "The good, the bad, the buggy.",
+                    "relatedTopics": [],
+                    "visibility": 1,
+                    "relatedTags": [],
+                    "relatedTopicIds": [],
+                    "seoTitle": "Programming News and Articles — Medium",
+                    "type": "Topic"
+                }
+            ]
+        },
+        "coverless": true,
+        "slug": "fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug": "fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "previewImage",
+                        "type": 4,
+                        "text": "",
+                        "layout": 10,
+                        "metadata": {
+                            "id": "1*ZcViIhoZ0aVoUT2I30yxlA.png",
+                            "originalWidth": 2858,
+                            "originalHeight": 1578,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "a96c",
+                        "type": 3,
+                        "text": "Fleet Management of Kubernetes Clusters at Scale — Rancher’s Fleet",
+                        "markups": [],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "Deploying standalone Kubernetes clusters to edge locations, heterogenous cloud platforms, on-premise data centers etc. is a common pattern…"
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "5b301f10ddcd",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
+        "notifyFacebook": false,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": false,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isEligibleForRevenue": false,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 0,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "mongerRequestType": 1,
+        "layerCake": 4,
+        "socialTitle": "",
+        "socialDek": "",
+        "editorialPreviewTitle": "",
+        "editorialPreviewDek": "",
+        "curationEligibleAt": 1588159735807,
+        "isProxyPost": false,
+        "proxyPostFaviconUrl": "",
+        "proxyPostProviderName": "",
+        "proxyPostType": 0,
+        "isSuspended": false,
+        "isLimitedState": false,
+        "seoTitle": "",
+        "previewContent2": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "259c",
+                        "type": 4,
+                        "text": "Kubernetes Cluster Fleet Controller",
+                        "markups": [],
+                        "layout": 1,
+                        "metadata": {
+                            "id": "1*ZcViIhoZ0aVoUT2I30yxlA.png",
+                            "originalWidth": 2858,
+                            "originalHeight": 1578,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "a96c",
+                        "type": 3,
+                        "text": "Fleet Management of Kubernetes Clusters at Scale — Rancher’s Fleet",
+                        "markups": []
+                    },
+                    {
+                        "name": "5acc",
+                        "type": 1,
+                        "text": "Deploying standalone Kubernetes clusters to edge locations, heterogenous cloud platforms, on-premise data centers etc. is a common pattern these days to provide a unified platform to run applications and services in edge, IoT and multicloud space. In addition, there are even more sophisticated use-cases for shipping software for the IoT…",
+                        "markups": []
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "Deploying standalone Kubernetes clusters to edge locations, heterogenous cloud platforms, on-premise data centers etc. is a common pattern…"
+        },
+        "cardType": 0,
+        "isDistributionAlertDismissed": false,
+        "isShortform": false,
+        "shortformType": 0,
+        "responsesLocked": false,
+        "isLockedResponse": false,
+        "type": "Post",
+        "author": {
+            "userId": "e57e2ec3b649",
+            "name": "Gokul Chandra",
+            "username": "gokulchandrapr",
+            "createdAt": 1520216583678,
+            "imageId": "1*3mNJ6-tl16PFpPTwJP-e8Q.jpeg",
+            "backgroundImageId": "",
+            "bio": "Software Engineer",
+            "allowNotes": 1,
+            "mediumMemberAt": 0,
+            "isWriterProgramEnrolled": true,
+            "isSuspended": false,
+            "isMembershipTrialEligible": true,
+            "optInToIceland": false,
+            "type": "User"
+        },
+        "url": "https://medium.com/@gokulchandrapr/fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325"
+    },
+    {
+        "id": "57240e8d554a",
+        "versionId": "255d48e113ee",
+        "creatorId": "89b4ba5a32ff",
+        "homeCollectionId": "10d1a7495d39",
+        "title": "Your team might not need Kubernetes",
+        "detectedLanguage": "en",
+        "latestVersion": "255d48e113ee",
+        "latestPublishedVersion": "255d48e113ee",
+        "hasUnpublishedEdits": false,
+        "latestRev": 814,
+        "createdAt": 1584462149763,
+        "updatedAt": 1584538777124,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1584464836495,
+        "latestPublishedAt": 1584538776382,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle": "For some teams Kubernetes is the new hotness, a must-have — either because of bottom up pressure (developers want to play with cool tech)…",
+            "postDisplay": {
+                "coverless": true
+            }
+        },
+        "virtuals": {
+            "statusForCollection": "APPROVED",
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*RMihOIP0_GPSreMYvAmjgg.jpeg",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 1346,
+                "originalHeight": 427,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 1032,
+            "imageCount": 4,
+            "readingTime": 4.59433962264151,
+            "subtitle": "For some teams Kubernetes is the new hotness, a must-have — either because of bottom up pressure (developers want to play with cool tech)…",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 29,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "kubernetes",
+                    "name": "Kubernetes",
+                    "postCount": 16847,
+                    "metadata": {
+                        "postCount": 16847,
+                        "coverImage": {
+                            "id": "0*4ve38-UVey9BKYr1",
+                            "originalWidth": 3840,
+                            "originalHeight": 2160,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "zvHhKiVuR9M"
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "cloud-native",
+                    "name": "Cloud Native",
+                    "postCount": 1323,
+                    "metadata": {
+                        "postCount": 1323,
+                        "coverImage": {
+                            "id": "0*ebOy7TfGcTiyM0Yh.jpeg",
+                            "originalWidth": 640,
+                            "originalHeight": 400,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "cloud-computing",
+                    "name": "Cloud Computing",
+                    "postCount": 36232,
+                    "metadata": {
+                        "postCount": 36232,
+                        "coverImage": {
+                            "id": "1*mjFhhGTznoFC6pV-lnWCSQ.png",
+                            "originalWidth": 1034,
+                            "originalHeight": 451,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "containers",
+                    "name": "Containers",
+                    "postCount": 5536,
+                    "metadata": {
+                        "postCount": 5536,
+                        "coverImage": {
+                            "id": "0*WfHIi_lTVU8KlmHB.jpg",
+                            "originalWidth": 1024,
+                            "originalHeight": 512,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "docker",
+                    "name": "Docker",
+                    "postCount": 26959,
+                    "metadata": {
+                        "postCount": 26959,
+                        "coverImage": {
+                            "id": "1*Fn5GItDauGz_0FC1v5sjzw.gif",
+                            "originalWidth": 979,
+                            "originalHeight": 513,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 1,
+            "links": {
+                "entries": [
+                    {
+                        "url": "https://www.linkedin.com/company/faundev",
+                        "alts": [],
+                        "httpStatus": 999
+                    },
+                    {
+                        "url": "https://www.facebook.com/groups/364904580892967/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.faun.dev/join/?utm_source=medium.com%2Ffaun&utm_medium=medium&utm_campaign=faunmediumbanner",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://instagram.com/fauncommunity/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://twitter.com/joinfaun",
+                        "alts": [
+                            {
+                                "type": 2,
+                                "url": "twitter://user?screen_name=joinfaun"
+                            },
+                            {
+                                "type": 3,
+                                "url": "twitter://user?screen_name=joinfaun"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.facebook.com/faun.dev/",
+                        "alts": [
+                            {
+                                "type": 3,
+                                "url": "fb://page/1658316914401441?referrer=app_link"
+                            },
+                            {
+                                "type": 2,
+                                "url": "fb://page/?id=1658316914401441"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://en.wikipedia.org/wiki/LAMP_(software_bundle)",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.alexellis.io/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.openfaas.com/blog/plonk-stack/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://helm.sh/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://rubyonrails.org",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://twitter.com/danieldibswe/status/1169485819993841664?s=20",
+                        "alts": [
+                            {
+                                "type": 3,
+                                "url": "twitter://status?status_id=1169485819993841664"
+                            },
+                            {
+                                "type": 2,
+                                "url": "twitter://status?id=1169485819993841664"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/cncf/trailmap/blob/master/CNCF_TrailMap_latest.png",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://twitter.com/alexellisuk/",
+                        "alts": [
+                            {
+                                "type": 3,
+                                "url": "twitter://user?screen_name=alexellisuk"
+                            },
+                            {
+                                "type": 2,
+                                "url": "twitter://user?screen_name=alexellisuk"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/openfaas/faasd",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.kennasecurity.com/blog/one-fifth-of-the-most-used-docker-containers-have-at-least-one-critical-vulnerability/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://medium.com/p/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24",
+                        "alts": [
+                            {
+                                "type": 3,
+                                "url": "medium://p/835b6b539c24"
+                            },
+                            {
+                                "type": 2,
+                                "url": "medium://p/835b6b539c24"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://medium.com/p/kubernetes-apps-the-easy-way-f06d9e5cad3c",
+                        "alts": [
+                            {
+                                "type": 3,
+                                "url": "medium://p/f06d9e5cad3c"
+                            },
+                            {
+                                "type": 2,
+                                "url": "medium://p/f06d9e5cad3c"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://medium.com/p/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9",
+                        "alts": [
+                            {
+                                "type": 3,
+                                "url": "medium://p/232307f7b0a9"
+                            },
+                            {
+                                "type": 2,
+                                "url": "medium://p/232307f7b0a9"
+                            }
+                        ],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1584538778606
+            },
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 104,
+            "sectionCount": 1,
+            "readingList": 0,
+            "topics": [
+                {
+                    "topicId": "decb52b64abf",
+                    "slug": "programming",
+                    "createdAt": 1493934116328,
+                    "deletedAt": 0,
+                    "image": {
+                        "id": "1*iPa136b1cGEO7lvoXg6uHQ@2x.jpeg",
+                        "originalWidth": 6016,
+                        "originalHeight": 4016
+                    },
+                    "name": "Programming",
+                    "description": "The good, the bad, the buggy.",
+                    "relatedTopics": [],
+                    "visibility": 1,
+                    "relatedTags": [],
+                    "relatedTopicIds": [],
+                    "seoTitle": "Programming News and Articles — Medium",
+                    "type": "Topic"
+                }
+            ]
+        },
+        "coverless": true,
+        "slug": "your-team-might-not-need-kubernetes",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 2,
+        "uniqueSlug": "your-team-might-not-need-kubernetes-57240e8d554a",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "previewImage",
+                        "type": 4,
+                        "text": "",
+                        "layout": 10,
+                        "metadata": {
+                            "id": "1*RMihOIP0_GPSreMYvAmjgg.jpeg",
+                            "originalWidth": 1346,
+                            "originalHeight": 427,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "8ebd",
+                        "type": 3,
+                        "text": "Your team might not need Kubernetes",
+                        "markups": [],
+                        "alignment": 1
+                    },
+                    {
+                        "name": "9806",
+                        "type": 1,
+                        "text": "For some teams, Kubernetes is the new hotness, a must-have — either because of bottom-up pressure…",
+                        "markups": [],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "For some teams Kubernetes is the new hotness, a must-have — either because of bottom up pressure (developers want to play with cool tech)…"
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "10d1a7495d39",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
+        "notifyFacebook": false,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": true,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isEligibleForRevenue": true,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 1,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "mongerRequestType": 1,
+        "layerCake": 0,
+        "socialTitle": "",
+        "socialDek": "",
+        "editorialPreviewTitle": "",
+        "editorialPreviewDek": "",
+        "curationEligibleAt": 1584464835855,
+        "isProxyPost": false,
+        "proxyPostFaviconUrl": "",
+        "proxyPostProviderName": "",
+        "proxyPostType": 0,
+        "isSuspended": false,
+        "isLimitedState": false,
+        "seoTitle": "",
+        "previewContent2": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "8ebd",
+                        "type": 3,
+                        "text": "Your team might not need Kubernetes",
+                        "markups": []
+                    },
+                    {
+                        "name": "9806",
+                        "type": 1,
+                        "text": "For some teams, Kubernetes is the new hotness, a must-have — either because of bottom-up pressure (developers want to play with cool tech) or from top-down — because your CIO heard that it will solve all your problems. You may not actually need Kubernetes.",
+                        "markups": []
+                    },
+                    {
+                        "name": "3bb7",
+                        "type": 4,
+                        "text": "Dilbert cartoon from https://twitter.com/danieldibswe/status/1169485819993841664",
+                        "markups": [
+                            {
+                                "type": 3,
+                                "start": 21,
+                                "end": 80,
+                                "href": "https://twitter.com/danieldibswe/status/1169485819993841664?s=20",
+                                "title": "",
+                                "rel": "",
+                                "anchorType": 0
+                            }
+                        ],
+                        "layout": 1,
+                        "metadata": {
+                            "id": "1*RMihOIP0_GPSreMYvAmjgg.jpeg",
+                            "originalWidth": 1346,
+                            "originalHeight": 427,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "810f",
+                        "type": 1,
+                        "text": "It turns out that just moving…",
+                        "markups": []
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "For some teams Kubernetes is the new hotness, a must-have — either because of bottom up pressure (developers want to play with cool tech)…"
+        },
+        "cardType": 0,
+        "isDistributionAlertDismissed": true,
+        "isShortform": false,
+        "shortformType": 0,
+        "responsesLocked": false,
+        "isLockedResponse": false,
+        "type": "Post",
+        "author": {
+            "userId": "89b4ba5a32ff",
+            "name": "Alex Ellis",
+            "username": "alexellisuk",
+            "createdAt": 1472888220745,
+            "imageId": "2*Am8zqJK9-bPUvvm0C5VzsQ.png",
+            "backgroundImageId": "",
+            "bio": "CNCF Ambassador. OpenFaaS & Inlets founder — https://www.alexellis.io",
+            "twitterScreenName": "alexellisuk",
+            "allowNotes": 1,
+            "mediumMemberAt": 0,
+            "isWriterProgramEnrolled": true,
+            "isSuspended": false,
+            "firstOpenedAndroidApp": 1595174230568,
+            "isMembershipTrialEligible": true,
+            "optInToIceland": false,
+            "type": "User"
+        },
+        "url": "https://medium.com/@alexellisuk/your-team-might-not-need-kubernetes-57240e8d554a"
+    },
+    {
+        "id": "77e56e547875",
+        "versionId": "ff6ce054e708",
+        "creatorId": "89b4ba5a32ff",
+        "homeCollectionId": "",
+        "title": "Five years of Raspberry Pi Clusters",
+        "detectedLanguage": "en",
+        "latestVersion": "ff6ce054e708",
+        "latestPublishedVersion": "ff6ce054e708",
+        "hasUnpublishedEdits": false,
+        "latestRev": 1193,
+        "createdAt": 1585597475578,
+        "updatedAt": 1585672025465,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1585601537134,
+        "latestPublishedAt": 1585672025210,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle": "I’ve been writing about running Docker on Raspberry Pi for 5 years now and things have got a lot easier than when I started back in the…",
+            "postDisplay": {
+                "coverless": true
+            }
+        },
+        "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*YKONJGVPikMKRj7arwJeDA.jpeg",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 640,
+                "originalHeight": 640,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 1576,
+            "imageCount": 6,
+            "readingTime": 6.8971698113207545,
+            "subtitle": "I’ve been writing about running Docker on Raspberry Pi for 5 years now and things have got a lot easier than when I started back in the…",
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 324,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "raspberry-pi",
+                    "name": "Raspberry Pi",
+                    "postCount": 7206,
+                    "metadata": {
+                        "postCount": 7206,
+                        "coverImage": {
+                            "id": "1*E8CGJR4PzBHArLnrae_ihA.jpeg",
+                            "originalWidth": 4160,
+                            "originalHeight": 3120,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "clustering",
+                    "name": "Clustering",
+                    "postCount": 1356,
+                    "metadata": {
+                        "postCount": 1356,
+                        "coverImage": {
+                            "id": "1*xw-rfX0f-6tlehElu4dJ0w.png",
+                            "originalWidth": 720,
+                            "originalHeight": 560,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "cloud-computing",
+                    "name": "Cloud Computing",
+                    "postCount": 36232,
+                    "metadata": {
+                        "postCount": 36232,
+                        "coverImage": {
+                            "id": "1*mjFhhGTznoFC6pV-lnWCSQ.png",
+                            "originalWidth": 1034,
+                            "originalHeight": 451,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "docker",
+                    "name": "Docker",
+                    "postCount": 26959,
+                    "metadata": {
+                        "postCount": 26959,
+                        "coverImage": {
+                            "id": "1*Fn5GItDauGz_0FC1v5sjzw.gif",
+                            "originalWidth": 979,
+                            "originalHeight": 513,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "kubernetes",
+                    "name": "Kubernetes",
+                    "postCount": 16847,
+                    "metadata": {
+                        "postCount": 16847,
+                        "coverImage": {
+                            "id": "0*4ve38-UVey9BKYr1",
+                            "originalWidth": 3840,
+                            "originalHeight": 2160,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "zvHhKiVuR9M"
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 8,
+            "links": {
+                "entries": [
+                    {
+                        "url": "https://docs.traefik.io/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://docs.inlets.dev/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://docs.inlets.dev/#/get-started/quickstart-ingresscontroller-cert-manager?id=expose-your-ingresscontroller-and-get-tls-from-letsencrypt",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.openfaas.com/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://blog.alexellis.io/tag/docker/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/teamserverless/k8s-on-raspbian",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://blog.alexellis.io/build-your-own-bare-metal-arm-cluster/",
+                        "alts": [
+                            {
+                                "type": 1,
+                                "url": "https://cdn.ampproject.org/c/s/blog.alexellis.io/build-your-own-bare-metal-arm-cluster/amp/"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.hanselman.com/blog/HowToBuildAKubernetesClusterWithARMRaspberryPiThenRunNETCoreOnOpenFaas.aspx",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://blog.alexellis.io/5-things-docker-rpi/",
+                        "alts": [
+                            {
+                                "type": 1,
+                                "url": "https://cdn.ampproject.org/c/s/blog.alexellis.io/5-things-docker-rpi/amp/"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/alexellis/docker-arm",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://blog.alexellis.io/hands-on-docker-raspberrypi/",
+                        "alts": [
+                            {
+                                "type": 1,
+                                "url": "https://cdn.ampproject.org/c/s/blog.alexellis.io/hands-on-docker-raspberrypi/amp/"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/sponsors/alexellis",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://blog.alexellis.io/raspberry-pi-homelab-with-k3sup/",
+                        "alts": [
+                            {
+                                "type": 1,
+                                "url": "https://cdn.ampproject.org/c/s/blog.alexellis.io/raspberry-pi-homelab-with-k3sup/amp/"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://blog.alexellis.io/linux-user-developer-magazine/",
+                        "alts": [
+                            {
+                                "type": 1,
+                                "url": "https://cdn.ampproject.org/c/s/blog.alexellis.io/linux-user-developer-magazine/amp/"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/inlets/inlets-operator",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=IaKRqBRq6CE",
+                        "alts": [],
+                        "httpStatus": 429
+                    },
+                    {
+                        "url": "https://blog.alexellis.io/live-deep-dive-pi-swarm/",
+                        "alts": [
+                            {
+                                "type": 1,
+                                "url": "https://cdn.ampproject.org/c/s/blog.alexellis.io/live-deep-dive-pi-swarm/amp/"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://twitter.com/ibuildthecloud?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                        "alts": [
+                            {
+                                "type": 3,
+                                "url": "twitter://user?screen_name=ibuildthecloud"
+                            },
+                            {
+                                "type": 2,
+                                "url": "twitter://user?screen_name=ibuildthecloud"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://k3s.io",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/",
+                        "alts": [
+                            {
+                                "type": 1,
+                                "url": "https://cdn.ampproject.org/c/s/blog.alexellis.io/test-drive-k3s-on-raspberry-pi/amp/"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://blog.alexellis.io/serverless-kubernetes-on-raspberry-pi/",
+                        "alts": [
+                            {
+                                "type": 1,
+                                "url": "https://cdn.ampproject.org/c/s/blog.alexellis.io/serverless-kubernetes-on-raspberry-pi/amp/"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://www.pimoroni.com",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://blog.alexellis.io/dockercon-2016-speaker-notes/",
+                        "alts": [
+                            {
+                                "type": 1,
+                                "url": "https://cdn.ampproject.org/c/s/blog.alexellis.io/dockercon-2016-speaker-notes/amp/"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://k3s.io/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://get-arkade.dev/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://blog.pimoroni.com/blinkt/",
+                        "alts": [
+                            {
+                                "type": 1,
+                                "url": "https://cdn.ampproject.org/c/s/blog.pimoroni.com/blinkt/amp/"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://k3sup.dev",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://k3sup.dev/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/docker/swarm",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/luxas",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a",
+                        "alts": [
+                            {
+                                "type": 2,
+                                "url": "medium://p/84a8492dc95a"
+                            },
+                            {
+                                "type": 3,
+                                "url": "medium://p/84a8492dc95a"
+                            }
+                        ],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1585672026563
+            },
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 1241,
+            "sectionCount": 1,
+            "readingList": 0,
+            "topics": [
+                {
+                    "topicId": "decb52b64abf",
+                    "slug": "programming",
+                    "createdAt": 1493934116328,
+                    "deletedAt": 0,
+                    "image": {
+                        "id": "1*iPa136b1cGEO7lvoXg6uHQ@2x.jpeg",
+                        "originalWidth": 6016,
+                        "originalHeight": 4016
+                    },
+                    "name": "Programming",
+                    "description": "The good, the bad, the buggy.",
+                    "relatedTopics": [],
+                    "visibility": 1,
+                    "relatedTags": [],
+                    "relatedTopicIds": [],
+                    "seoTitle": "Programming News and Articles — Medium",
+                    "type": "Topic"
+                },
+                {
+                    "topicId": "e6d44cf5196e",
+                    "slug": "makers",
+                    "createdAt": 1563822557220,
+                    "deletedAt": 0,
+                    "image": {
+                        "id": "1*Rna_OJRQ0yGZ7t2thRzaew@2x.jpeg",
+                        "originalWidth": 4752,
+                        "originalHeight": 3168
+                    },
+                    "name": "Makers",
+                    "description": "For those who do.",
+                    "relatedTopics": [],
+                    "visibility": 1,
+                    "relatedTags": [],
+                    "relatedTopicIds": [],
+                    "seoTitle": "Invention Stories and Raspberry Pi and Arduino Projects — Medium",
+                    "type": "Topic"
+                }
+            ]
+        },
+        "coverless": true,
+        "slug": "five-years-of-raspberry-pi-clusters",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 2,
+        "uniqueSlug": "five-years-of-raspberry-pi-clusters-77e56e547875",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "previewImage",
+                        "type": 4,
+                        "text": "",
+                        "layout": 10,
+                        "metadata": {
+                            "id": "1*YKONJGVPikMKRj7arwJeDA.jpeg",
+                            "originalWidth": 640,
+                            "originalHeight": 640,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "362a",
+                        "type": 3,
+                        "text": "Five years of Raspberry Pi Clusters",
+                        "markups": [],
+                        "alignment": 1
+                    },
+                    {
+                        "name": "59eb",
+                        "type": 1,
+                        "text": "I’ve been writing about running Docker on Raspberry Pi for 5 years now and things have got a lot…",
+                        "markups": [],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "I’ve been writing about running Docker on Raspberry Pi for 5 years now and things have got a lot easier than when I started back in the…"
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
+        "notifyFacebook": false,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": true,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isEligibleForRevenue": true,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 1,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "mongerRequestType": 1,
+        "layerCake": 3,
+        "socialTitle": "",
+        "socialDek": "",
+        "editorialPreviewTitle": "",
+        "editorialPreviewDek": "",
+        "curationEligibleAt": 1585601536369,
+        "primaryTopicId": "e6d44cf5196e",
+        "isProxyPost": false,
+        "proxyPostFaviconUrl": "",
+        "proxyPostProviderName": "",
+        "proxyPostType": 0,
+        "isSuspended": false,
+        "isLimitedState": false,
+        "seoTitle": "",
+        "previewContent2": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "362a",
+                        "type": 3,
+                        "text": "Five years of Raspberry Pi Clusters",
+                        "markups": []
+                    },
+                    {
+                        "name": "59eb",
+                        "type": 1,
+                        "text": "I’ve been writing about running Docker on Raspberry Pi for 5 years now and things have got a lot easier than when I started back in the day. There’s now no need to patch the kernel, use a bespoke OS or even build Go and Docker from scratch.",
+                        "markups": []
+                    },
+                    {
+                        "name": "88e9",
+                        "type": 4,
+                        "text": "My stack of 7 Raspberry PI Model 2s running Docker Swarm (2016)",
+                        "markups": [
+                            {
+                                "type": 2,
+                                "start": 0,
+                                "end": 63
+                            }
+                        ],
+                        "layout": 1,
+                        "metadata": {
+                            "id": "1*YKONJGVPikMKRj7arwJeDA.jpeg",
+                            "originalWidth": 640,
+                            "originalHeight": 640,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "0a2f",
+                        "type": 7,
+                        "text": "Since my…",
+                        "markups": []
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "I’ve been writing about running Docker on Raspberry Pi for 5 years now and things have got a lot easier than when I started back in the…"
+        },
+        "cardType": 0,
+        "isDistributionAlertDismissed": true,
+        "isShortform": false,
+        "shortformType": 0,
+        "responsesLocked": false,
+        "isLockedResponse": false,
+        "type": "Post",
+        "author": {
+            "userId": "89b4ba5a32ff",
+            "name": "Alex Ellis",
+            "username": "alexellisuk",
+            "createdAt": 1472888220745,
+            "imageId": "2*Am8zqJK9-bPUvvm0C5VzsQ.png",
+            "backgroundImageId": "",
+            "bio": "CNCF Ambassador. OpenFaaS & Inlets founder — https://www.alexellis.io",
+            "twitterScreenName": "alexellisuk",
+            "allowNotes": 1,
+            "mediumMemberAt": 0,
+            "isWriterProgramEnrolled": true,
+            "isSuspended": false,
+            "firstOpenedAndroidApp": 1595174230568,
+            "isMembershipTrialEligible": true,
+            "optInToIceland": false,
+            "type": "User"
+        },
+        "url": "https://medium.com/@alexellisuk/five-years-of-raspberry-pi-clusters-77e56e547875"
+    },
+    {
+        "id": "47e7fe0b77dc",
+        "versionId": "7f50efd1a2c2",
+        "creatorId": "19d1a95217e7",
+        "homeCollectionId": "d79c34c60b03",
+        "title": "Lessons learned about monitoring the JVM in the era of containers",
+        "detectedLanguage": "en",
+        "latestVersion": "7f50efd1a2c2",
+        "latestPublishedVersion": "7f50efd1a2c2",
+        "hasUnpublishedEdits": false,
+        "latestRev": 3285,
+        "createdAt": 1574756916098,
+        "updatedAt": 1584716616992,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1583825460907,
+        "latestPublishedAt": 1583825460907,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle": "Quick and easy things you can do to monitor JVM when it is being used in containers",
+            "postDisplay": {
+                "coverless": true
+            }
+        },
+        "virtuals": {
+            "statusForCollection": "APPROVED",
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*KiBOXTwsbMBae9o2PINm-w.jpeg",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 1400,
+                "originalHeight": 770,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 1411,
+            "imageCount": 14,
+            "readingTime": 6.774528301886793,
+            "subtitle": "Quick and easy things you can do to monitor JVM when it is being used in containers",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 38,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "jvm",
+                    "name": "JVM",
+                    "postCount": 650,
+                    "metadata": {
+                        "postCount": 650,
+                        "coverImage": {
+                            "id": "0*CBK0O7PDz7clfiFJ",
+                            "originalWidth": 3000,
+                            "originalHeight": 2000,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "4It-rIZwPUQ"
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "monitoring",
+                    "name": "Monitoring",
+                    "postCount": 3401,
+                    "metadata": {
+                        "postCount": 3401,
+                        "coverImage": {
+                            "id": "1*0yWiQNnNbbXKONn_HFG2Mg.png",
+                            "originalWidth": 973,
+                            "originalHeight": 911,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "devops",
+                    "name": "DevOps",
+                    "postCount": 30199,
+                    "metadata": {
+                        "postCount": 30199,
+                        "coverImage": {
+                            "id": "0*4ve38-UVey9BKYr1",
+                            "originalWidth": 3840,
+                            "originalHeight": 2160,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "zvHhKiVuR9M"
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "containers",
+                    "name": "Containers",
+                    "postCount": 5536,
+                    "metadata": {
+                        "postCount": 5536,
+                        "coverImage": {
+                            "id": "0*WfHIi_lTVU8KlmHB.jpg",
+                            "originalWidth": 1024,
+                            "originalHeight": 512,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "performance",
+                    "name": "Performance",
+                    "postCount": 12423,
+                    "metadata": {
+                        "postCount": 12423,
+                        "coverImage": {
+                            "id": "0*GWFHSeCrjUgPdkJ-",
+                            "originalWidth": 960,
+                            "originalHeight": 557,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 2,
+            "links": {
+                "entries": [
+                    {
+                        "url": "https://blogs.oracle.com/javamagazine/understanding-the-jdks-new-superfast-garbage-collectors",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://visualvm.github.io/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://docs.oracle.com/javase/9/gctuning/available-collectors.htm",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/prometheus/client_java/tree/master/simpleclient_hotspot/src/main/java/io/prometheus/client/hotspot",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://docs.oracle.com/javase/9/gctuning/parallel-collector1.htm#JSGCT-GUID-74BE3BC9-C7ED-4AF8-A202-793255C864C4",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://gceasy.io/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://medium.com/thron-tech/how-we-implemented-red-and-use-metrics-for-monitoring-9a7db29382af",
+                        "alts": [
+                            {
+                                "type": 3,
+                                "url": "medium://p/9a7db29382af"
+                            },
+                            {
+                                "type": 2,
+                                "url": "medium://p/9a7db29382af"
+                            }
+                        ],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1583825462433
+            },
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 85,
+            "sectionCount": 1,
+            "readingList": 0,
+            "topics": [
+                {
+                    "topicId": "55f1c20aba7a",
+                    "slug": "software-engineering",
+                    "createdAt": 1491949272237,
+                    "deletedAt": 0,
+                    "image": {
+                        "id": "1*U8FboK4lz1wqwQC6IcqxKw@2x.jpeg",
+                        "originalWidth": 5507,
+                        "originalHeight": 3098
+                    },
+                    "name": "Software Engineering",
+                    "description": "Back-end to front-end.",
+                    "relatedTopics": [],
+                    "visibility": 1,
+                    "relatedTags": [],
+                    "relatedTopicIds": [],
+                    "seoTitle": "Software Engineering News and Articles — Medium",
+                    "type": "Topic"
+                }
+            ]
+        },
+        "coverless": true,
+        "slug": "lessons-learned-about-monitoring-the-jvm-in-the-era-of-containers",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 2,
+        "uniqueSlug": "lessons-learned-about-monitoring-the-jvm-in-the-era-of-containers-47e7fe0b77dc",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "previewImage",
+                        "type": 4,
+                        "text": "",
+                        "layout": 10,
+                        "metadata": {
+                            "id": "1*KiBOXTwsbMBae9o2PINm-w.jpeg",
+                            "originalWidth": 1400,
+                            "originalHeight": 770,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "c596",
+                        "type": 3,
+                        "text": "Lessons learned about monitoring the JVM in the era of containers",
+                        "markups": [],
+                        "alignment": 1
+                    },
+                    {
+                        "name": "56d4",
+                        "type": 13,
+                        "text": "Quick and easy things you can do to…",
+                        "markups": [],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "Quick and easy things you can do to monitor JVM when it is being used in containers"
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "d79c34c60b03",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
+        "notifyFacebook": false,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": true,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isEligibleForRevenue": true,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 1,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "mongerRequestType": 1,
+        "layerCake": 3,
+        "socialTitle": "",
+        "socialDek": "",
+        "editorialPreviewTitle": "",
+        "editorialPreviewDek": "",
+        "curationEligibleAt": 1574840781309,
+        "primaryTopicId": "55f1c20aba7a",
+        "isProxyPost": false,
+        "proxyPostFaviconUrl": "",
+        "proxyPostProviderName": "",
+        "proxyPostType": 0,
+        "isSuspended": false,
+        "isLimitedState": false,
+        "seoTitle": "",
+        "previewContent2": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "c596",
+                        "type": 3,
+                        "text": "Lessons learned about monitoring the JVM in the era of containers",
+                        "markups": []
+                    },
+                    {
+                        "name": "56d4",
+                        "type": 13,
+                        "text": "Quick and easy things you can do to monitor JVM when it is being used in containers",
+                        "markups": []
+                    },
+                    {
+                        "name": "42e7",
+                        "type": 4,
+                        "text": "",
+                        "markups": [],
+                        "layout": 1,
+                        "metadata": {
+                            "id": "1*KiBOXTwsbMBae9o2PINm-w.jpeg",
+                            "originalWidth": 1400,
+                            "originalHeight": 770,
+                            "isFeatured": true
+                        }
+                    },
+                    {
+                        "name": "bcbf",
+                        "type": 1,
+                        "text": "Java Virtual Machine (JVM) has been around for a long time (1994) so it’s hardly a surprise there are hundreds of tools to monitor its health and performance. We could use profiler tools (like VisualVM) to track memory leaks, CPU usage, and memory consumption but they require a direct connection…",
+                        "markups": [
+                            {
+                                "type": 3,
+                                "start": 193,
+                                "end": 201,
+                                "href": "https://visualvm.github.io/",
+                                "title": "",
+                                "rel": "noopener",
+                                "anchorType": 0
+                            },
+                            {
+                                "type": 1,
+                                "start": 172,
+                                "end": 186
+                            },
+                            {
+                                "type": 1,
+                                "start": 323,
+                                "end": 397
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "Quick and easy things you can do to monitor JVM when it is being used in containers"
+        },
+        "cardType": 0,
+        "isDistributionAlertDismissed": true,
+        "isShortform": false,
+        "shortformType": 0,
+        "responsesLocked": false,
+        "isLockedResponse": false,
+        "type": "Post",
+        "author": {
+            "userId": "19d1a95217e7",
+            "name": "Mattia Barbiero",
+            "username": "mattia.barbiero.THRON",
+            "createdAt": 1571728928701,
+            "imageId": "2*xLTf5R9sZ7l7Mn9v9pOOjg.jpeg",
+            "backgroundImageId": "",
+            "bio": "Project Manager @ THRON",
+            "twitterScreenName": "",
+            "allowNotes": 1,
+            "mediumMemberAt": 0,
+            "isWriterProgramEnrolled": true,
+            "isSuspended": false,
+            "isMembershipTrialEligible": true,
+            "optInToIceland": false,
+            "type": "User"
+        },
+        "url": "https://medium.com/@mattia.barbiero.THRON/lessons-learned-about-monitoring-the-jvm-in-the-era-of-containers-47e7fe0b77dc"
+    },
+    {
+        "id": "304c9d50f1b4",
+        "versionId": "30572e9b9402",
+        "creatorId": "86692d5754ae",
+        "homeCollectionId": "5b301f10ddcd",
+        "title": "Additional Tips for Migrating to Helm 3",
+        "detectedLanguage": "en",
+        "latestVersion": "30572e9b9402",
+        "latestPublishedVersion": "30572e9b9402",
+        "hasUnpublishedEdits": false,
+        "latestRev": 609,
+        "createdAt": 1579204152376,
+        "updatedAt": 1579980911130,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1579645231454,
+        "latestPublishedAt": 1579730831869,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle": "It’s well worth migrating to Helm 3 and the process is nowhere near as daunting as you might think.",
+            "postDisplay": {
+                "coverless": true
+            }
+        },
+        "virtuals": {
+            "statusForCollection": "APPROVED",
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "0*l0nJssQk4YoxQI1S",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 3008,
+                "originalHeight": 2000,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 968,
+            "imageCount": 1,
+            "readingTime": 3.8528301886792455,
+            "subtitle": "It’s well worth migrating to Helm 3 and the process is nowhere near as daunting as you might think.",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 12,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "kubernetes",
+                    "name": "Kubernetes",
+                    "postCount": 16847,
+                    "metadata": {
+                        "postCount": 16847,
+                        "coverImage": {
+                            "id": "0*4ve38-UVey9BKYr1",
+                            "originalWidth": 3840,
+                            "originalHeight": 2160,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "zvHhKiVuR9M"
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "helm",
+                    "name": "Helm",
+                    "postCount": 802,
+                    "metadata": {
+                        "postCount": 802,
+                        "coverImage": {
+                            "id": "0*ZEk_aB4a-4Zg2VPV",
+                            "originalWidth": 1024,
+                            "originalHeight": 504,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "containers",
+                    "name": "Containers",
+                    "postCount": 5536,
+                    "metadata": {
+                        "postCount": 5536,
+                        "coverImage": {
+                            "id": "0*WfHIi_lTVU8KlmHB.jpg",
+                            "originalWidth": 1024,
+                            "originalHeight": 512,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "docker",
+                    "name": "Docker",
+                    "postCount": 26959,
+                    "metadata": {
+                        "postCount": 26959,
+                        "coverImage": {
+                            "id": "1*Fn5GItDauGz_0FC1v5sjzw.gif",
+                            "originalWidth": 979,
+                            "originalHeight": 513,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "devops",
+                    "name": "DevOps",
+                    "postCount": 30199,
+                    "metadata": {
+                        "postCount": 30199,
+                        "coverImage": {
+                            "id": "0*4ve38-UVey9BKYr1",
+                            "originalWidth": 3840,
+                            "originalHeight": 2160,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "zvHhKiVuR9M"
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+                "entries": [
+                    {
+                        "url": "https://unsplash.com/@mattartz?utm_source=medium&utm_medium=referral",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://itnext.io/breaking-changes-in-helm-3-and-how-to-fix-them-39fea23e06ff",
+                        "alts": [
+                            {
+                                "type": 2,
+                                "url": "medium://p/39fea23e06ff"
+                            },
+                            {
+                                "type": 3,
+                                "url": "medium://p/39fea23e06ff"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3/#migrate-helm-v2-configuration",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://github.com/helm/helm/releases",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3/#migrate-helm-v2-releases",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://unsplash.com?utm_source=medium&utm_medium=referral",
+                        "alts": [],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1579730832063
+            },
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 43,
+            "sectionCount": 1,
+            "readingList": 0,
+            "topics": [
+                {
+                    "topicId": "decb52b64abf",
+                    "slug": "programming",
+                    "createdAt": 1493934116328,
+                    "deletedAt": 0,
+                    "image": {
+                        "id": "1*iPa136b1cGEO7lvoXg6uHQ@2x.jpeg",
+                        "originalWidth": 6016,
+                        "originalHeight": 4016
+                    },
+                    "name": "Programming",
+                    "description": "The good, the bad, the buggy.",
+                    "relatedTopics": [],
+                    "visibility": 1,
+                    "relatedTags": [],
+                    "relatedTopicIds": [],
+                    "seoTitle": "Programming News and Articles — Medium",
+                    "type": "Topic"
+                }
+            ]
+        },
+        "coverless": true,
+        "slug": "additional-tips-for-migrating-to-helm-3",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 2,
+        "uniqueSlug": "additional-tips-for-migrating-to-helm-3-304c9d50f1b4",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "previewImage",
+                        "type": 4,
+                        "text": "",
+                        "layout": 10,
+                        "metadata": {
+                            "id": "0*l0nJssQk4YoxQI1S",
+                            "originalWidth": 3008,
+                            "originalHeight": 2000,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "4KaY-etsnKc"
+                        }
+                    },
+                    {
+                        "name": "previewTitle",
+                        "type": 3,
+                        "text": "Additional Tips for Migrating to Helm 3",
+                        "alignment": 1
+                    },
+                    {
+                        "name": "previewSubtitle",
+                        "type": 13,
+                        "text": "It’s well worth migrating to Helm 3 and the process is…",
+                        "alignment": 1
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "It’s well worth migrating to Helm 3 and the process is nowhere near as daunting as you might think."
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "5b301f10ddcd",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
+        "notifyFacebook": false,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": true,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isEligibleForRevenue": true,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 1,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "mongerRequestType": 1,
+        "layerCake": 4,
+        "socialTitle": "",
+        "socialDek": "",
+        "editorialPreviewTitle": "",
+        "editorialPreviewDek": "",
+        "curationEligibleAt": 1579642945970,
+        "isProxyPost": false,
+        "proxyPostFaviconUrl": "",
+        "proxyPostProviderName": "",
+        "proxyPostType": 0,
+        "isSuspended": false,
+        "isLimitedState": false,
+        "seoTitle": "",
+        "previewContent2": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "0725",
+                        "type": 3,
+                        "text": "Migrating to Helm 3: What You Need to Know",
+                        "markups": []
+                    },
+                    {
+                        "name": "01c6",
+                        "type": 4,
+                        "text": "Photo by Matt Artz on Unsplash",
+                        "markups": [
+                            {
+                                "type": 3,
+                                "start": 9,
+                                "end": 18,
+                                "href": "https://unsplash.com/@mattartz?utm_source=medium&utm_medium=referral",
+                                "title": "",
+                                "rel": "photo-creator",
+                                "anchorType": 0
+                            },
+                            {
+                                "type": 3,
+                                "start": 22,
+                                "end": 30,
+                                "href": "https://unsplash.com?utm_source=medium&utm_medium=referral",
+                                "title": "",
+                                "rel": "photo-source",
+                                "anchorType": 0
+                            }
+                        ],
+                        "layout": 1,
+                        "metadata": {
+                            "id": "0*l0nJssQk4YoxQI1S",
+                            "originalWidth": 3008,
+                            "originalHeight": 2000,
+                            "isFeatured": true,
+                            "unsplashPhotoId": "4KaY-etsnKc"
+                        }
+                    },
+                    {
+                        "name": "c11e",
+                        "type": 1,
+                        "text": "Now that the latest and greatest major version of the Helm package manager is stable, you’re probably wondering how much effort is involved in upgrading/migrating/moving. As complicated as Helm can be, rest assured the upgrade process very simple. The official Helm blog has an excellent guide for the migration process…",
+                        "markups": [
+                            {
+                                "type": 3,
+                                "start": 321,
+                                "end": 344,
+                                "href": "https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3/",
+                                "title": "",
+                                "rel": "",
+                                "anchorType": 0
+                            },
+                            {
+                                "type": 1,
+                                "start": 248,
+                                "end": 344
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "startIndex": 0
+                    }
+                ]
+            },
+            "isFullContent": false,
+            "subtitle": "It’s well worth migrating to Helm 3 and the process is nowhere near as daunting as you might think."
+        },
+        "cardType": 0,
+        "isDistributionAlertDismissed": false,
+        "isShortform": false,
+        "shortformType": 0,
+        "responsesLocked": false,
+        "isLockedResponse": false,
+        "type": "Post",
+        "author": {
+            "userId": "86692d5754ae",
+            "name": "Jack Morris",
+            "username": "rudolphjacksonm",
+            "createdAt": 1566811195190,
+            "imageId": "2*rvmNZGi2UXP-m6cBw3SnNQ.jpeg",
+            "backgroundImageId": "",
+            "bio": "Technical Architect at Kainos",
+            "twitterScreenName": "",
+            "allowNotes": 1,
+            "mediumMemberAt": 0,
+            "isWriterProgramEnrolled": true,
+            "isSuspended": false,
+            "firstOpenedAndroidApp": 1579204120500,
+            "isMembershipTrialEligible": true,
+            "optInToIceland": false,
+            "type": "User"
+        },
+        "url": "https://medium.com/@rudolphjacksonm/additional-tips-for-migrating-to-helm-3-304c9d50f1b4"
+    }
+]

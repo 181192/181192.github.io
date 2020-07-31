@@ -1,0 +1,55 @@
+{
+  "name": "web",
+  "description": "Personal branding page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "181192 <k@kalli.no>",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "color": "^3.1.2",
+    "gatsby-image": "^2.3.4",
+    "gatsby-plugin-postcss": "^2.2.1",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-sharp": "^2.5.6",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-json": "^2.4.11",
+    "gatsby-transformer-sharp": "^2.4.6",
+    "gatsby-transformer-yaml": "^2.3.3",
+    "postcss-input-range": "^4.0.0",
+    "prop-types": "^15.7.2",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.9.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.20.12",
+    "gatsby-source-github": "^0.0.2",
+    "gh-pages": "^3.1.0",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.20.12",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/181192/181192"
+  },
+  "bugs": {
+    "url": "https://github.com/181192/181192/issues"
+  }
+}
