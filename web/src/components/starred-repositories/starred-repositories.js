@@ -5,7 +5,7 @@ import { arrayOf, shape, StarredRepositoryType } from "../../types"
 const StarredRepositories = ({ starredRepositories }) => (
   <>
     <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
-      My latest starred repositories
+      My latest starred repositories on <a className="underline" href="https://github.com">github.com</a>
     </h5>
     <div className="flex-wrap grid col-gap-2 grid-cols-2">
     {starredRepositories[0].starredRepositories.nodes.map((repo, i) => (
