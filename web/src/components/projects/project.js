@@ -2,6 +2,7 @@ import React from "react"
 import { ProjectType } from "../../types"
 import ProjectTags from "./project-tags"
 import ProjectLanguages from "./project-language"
+import ProjectIcon from "./project-icon"
 
 const Project = props => {
   const {
@@ -31,6 +32,7 @@ const Project = props => {
           {repositoryTopics && <ProjectTags tags={repositoryTopics} />}
           {languages && <ProjectLanguages languages={languages} />}
         </ul>
+        <ProjectIcon />
       </div>
     </div>
   )
