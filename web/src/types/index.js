@@ -1,4 +1,5 @@
 export { arrayOf, shape } from "prop-types"
+export { MediumHasRecommendedType } from "./medium-has-recommended"
 export { ProfileType } from "./profile"
 export { ProjectType } from "./project"
 export { SocialType } from "./social"
