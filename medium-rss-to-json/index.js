@@ -35,7 +35,7 @@ async function getHasRecommended() {
 
   try {
     fs.mkdirSync(basePath, { recursive: true })
-    fs.writeFileSync(`${basePath}/medium.json`, data)
+    fs.writeFileSync(`${basePath}/medium-has-recommended.json`, data)
     console.log("JSON data is saved.")
   } catch (err) {
     console.error(err)
