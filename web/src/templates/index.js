@@ -17,6 +17,7 @@ const IndexPage = ({ data }) => {
     social,
     starredRepositories,
     mediumHasRecommendedArticles,
+    githubUser
   } = data
 
   return (
@@ -28,7 +29,7 @@ const IndexPage = ({ data }) => {
       <Header initials={profile.initials} />
 
       <div className="md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 flex flex-wrap pt-4 my-8">
-        <Sidebar profile={profile} social={social.nodes} />
+        <Sidebar profile={githubUser.user} social={social.nodes} />
 
         <MainContent
           history={history.nodes}
@@ -68,11 +69,30 @@ export const query = graphql`
         ...WorkHistoryFragment
       }
     }
+    githubUser: github {
+      user(login: $githubUserName) {
+        ...GitHubUserFragment
+      }
+    }
+    gists: github {
+      user(login: $githubUserName) {
+        gists(
+          first: 10
+          orderBy: { field: UPDATED_AT, direction: DESC }
+          privacy: PUBLIC
+        ) {
+          nodes {
+            ...GistFragment
+          }
+        }
+      }
+    }
     repositories: github {
       user(login: $githubUserName) {
         repositories(
           first: 10
           orderBy: { field: UPDATED_AT, direction: DESC }
+          privacy: PUBLIC
         ) {
           nodes {
             ...RepositoryFragment

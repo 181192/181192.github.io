@@ -1,8 +1,8 @@
 import React from "react"
 import { FaMapMarkerAlt } from "react-icons/fa"
-import { ProfileType } from "../../types"
+import { GitHubUserType } from "../../types"
 
-const Location = ({ location, relocation }) => (
+const Location = ({ location }) => (
   <>
     <div className="inline-flex items-center bg-front mt-6 w-auto">
       <span className="text-lead border-r-2 border-back px-3">
@@ -12,17 +12,11 @@ const Location = ({ location, relocation }) => (
         {location}
       </span>
     </div>
-    {relocation && (
-      <div className="text-xs uppercase mt-2 font-semibold text-front font-header">
-        Available for relocation
-      </div>
-    )}
   </>
 )
 
 Location.propTypes = {
-  location: ProfileType.location,
-  relocation: ProfileType.relocation,
+  location: GitHubUserType.location,
 }
 
 export default Location
