@@ -39,6 +39,7 @@ const IndexPage = ({ data }) => {
             starredRepositories.user.starredRepositories.nodes
           }
           mediumHasRecommendedArticles={mediumHasRecommendedArticles.nodes}
+          githubUser={githubUser.user}
         />
       </div>
 

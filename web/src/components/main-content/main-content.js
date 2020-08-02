@@ -15,6 +15,7 @@ const MainContent = ({
   profile,
   starredRepositories,
   mediumHasRecommendedArticles,
+  githubUser,
 }) => {
   return (
     <main className="lg:w-2/3 lg:pl-8 xl:pl-12">
@@ -45,7 +46,7 @@ const MainContent = ({
       {projects && (<Projects projects={projects} />)}
       {history && (<WorkHistory history={history} />)}
       {profile.education && (<EducationHistory history={profile.education} />)}
-      {starredRepositories && (<StarredRepositories starredRepositories={starredRepositories} />)}
+      {starredRepositories && (<StarredRepositories starredRepositories={starredRepositories} profile={githubUser} />)}
       {mediumHasRecommendedArticles && (<MediumHasRecommendedArticles
         mediumHasRecommendedArticles={mediumHasRecommendedArticles}
       />)}
