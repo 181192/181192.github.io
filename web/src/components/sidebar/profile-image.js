@@ -1,11 +1,11 @@
 import React from "react"
-import { ProfileType } from "../../types"
+import { string } from "prop-types"
 
-const ProfileImage = ({ image, name }) => (
+const ProfileImage = ({ url, title }) => (
   <div className="relative inline-block leading-none">
     <img
-      src={image}
-      alt={name}
+      src={url}
+      alt={title}
       className="rounded-full relative z-10"
       style={{ filter: "grayscale(90%)" }}
     />
@@ -14,8 +14,8 @@ const ProfileImage = ({ image, name }) => (
 )
 
 ProfileImage.propTypes = {
-  image: ProfileType.userProfile.photo,
-  name: ProfileType.userProfile.fullName,
+  url: string.isRequired,
+  title: string.isRequired
 }
 
 export default ProfileImage
