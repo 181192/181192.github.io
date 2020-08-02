@@ -42,13 +42,13 @@ const MainContent = ({
       {profile.userProfile.description && (
         <About about={profile.userProfile.description} />
       )}
-      <Projects projects={projects} />
-      <WorkHistory history={history} />
-      <EducationHistory history={profile.education} />
-      <StarredRepositories starredRepositories={starredRepositories} />
-      <MediumHasRecommendedArticles
+      {projects && (<Projects projects={projects} />)}
+      {history && (<WorkHistory history={history} />)}
+      {profile.education && (<EducationHistory history={profile.education} />)}
+      {starredRepositories && (<StarredRepositories starredRepositories={starredRepositories} />)}
+      {mediumHasRecommendedArticles && (<MediumHasRecommendedArticles
         mediumHasRecommendedArticles={mediumHasRecommendedArticles}
-      />
+      />)}
     </main>
   )
 }
