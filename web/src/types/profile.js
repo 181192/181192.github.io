@@ -1,11 +1,13 @@
 import { graphql } from "gatsby"
-import { shape, string, arrayOf } from "prop-types"
+import { shape, string, arrayOf, number, bool } from "prop-types"
 
 export const ProfileType = {
   company: string,
   focus: string,
   focus_url: string,
   initials: string,
+  tools: arrayOf(string),
+  skills: arrayOf(string),
   userProfile: shape({
     fullName: string.isRequired,
     title: string.isRequired,
@@ -15,24 +17,24 @@ export const ProfileType = {
   }),
   education: arrayOf(
     shape({
-      schoolName: string.isRequired,
-      degreeName: string.isRequired,
-      fieldOfStudy: string.isRequired,
-      startDate: string.isRequired,
-      endDate: string.isRequired,
-      durationInDays: string.isRequired,
+      schoolName: string,
+      degreeName: string,
+      fieldOfStudy: string,
+      startDate: string,
+      endDate: string,
+      durationInDays: number,
     })
   ),
   experiences: arrayOf(
     shape({
-      title: string.isRequired,
-      company: string.isRequired,
-      employmentType: string.isRequired,
-      startDate: string.isRequired,
-      endDate: string.isRequired,
-      endDateIsPresent: string.isRequired,
-      description: string.isRequired,
-      durationInDays: string.isRequired,
+      title: string,
+      company: string,
+      employmentType: string,
+      startDate: string,
+      endDate: string,
+      endDateIsPresent: bool,
+      description: string,
+      durationInDays: number,
     })
   ),
 }
