@@ -1,6 +1,6 @@
 import React from "react"
 import StarredRepository from "./starred-repository"
-import { arrayOf, shape, StarredRepositoryType } from "../../types"
+import { arrayOf, shape, RepositoryType } from "../../types"
 
 const StarredRepositories = ({ starredRepositories }) => (
   <>
@@ -8,7 +8,7 @@ const StarredRepositories = ({ starredRepositories }) => (
       My latest starred repositories on <a className="underline" href="https://github.com">github.com</a>
     </h5>
     <div className="flex-wrap grid col-gap-2 grid-cols-2">
-    {starredRepositories[0].starredRepositories.nodes.map((repo, i) => (
+    {starredRepositories.map((repo, i) => (
       <StarredRepository key={`${repo.name}_${i}`} {...repo} />
     ))}
     </div>
@@ -16,7 +16,7 @@ const StarredRepositories = ({ starredRepositories }) => (
 )
 
 StarredRepositories.propTypes = {
-  starredRepositories: arrayOf(shape(StarredRepositoryType)),
+  starredRepositories: arrayOf(shape(RepositoryType)),
 }
 
 export default StarredRepositories

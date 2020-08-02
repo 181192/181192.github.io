@@ -13,8 +13,7 @@ const IndexPage = ({ data }) => {
   const {
     history,
     profile,
-    projects,
-    site,
+    repositories,
     social,
     starredRepositories,
     mediumHasRecommendedArticles,
@@ -34,16 +33,15 @@ const IndexPage = ({ data }) => {
         <MainContent
           history={history.nodes}
           profile={profile}
-          projects={projects.nodes}
-          starredRepositories={starredRepositories.nodes}
+          projects={repositories.user.repositories.nodes}
+          starredRepositories={
+            starredRepositories.user.starredRepositories.nodes
+          }
           mediumHasRecommendedArticles={mediumHasRecommendedArticles.nodes}
         />
       </div>
 
-      <Footer
-        name={profile.name}
-        showThemeLogo={site.siteMetadata.showThemeLogo}
-      />
+      <Footer name={profile.userProfile.fullName} />
     </div>
   )
 }
@@ -51,7 +49,7 @@ const IndexPage = ({ data }) => {
 export default IndexPage
 
 export const query = graphql`
-  query {
+  query($githubUserName: String!) {
     site {
       siteMetadata {
         showThemeLogo
@@ -70,20 +68,26 @@ export const query = graphql`
         ...WorkHistoryFragment
       }
     }
-    projects: allGithubUser {
-      nodes {
-        repositories {
+    repositories: github {
+      user(login: $githubUserName) {
+        repositories(
+          first: 10
+          orderBy: { field: UPDATED_AT, direction: DESC }
+        ) {
           nodes {
-            ...ProjectsFragment
+            ...RepositoryFragment
           }
         }
       }
     }
-    starredRepositories: allGithubUser {
-      nodes {
-        starredRepositories {
+    starredRepositories: github {
+      user(login: $githubUserName) {
+        starredRepositories(
+          first: 10
+          orderBy: { field: STARRED_AT, direction: DESC }
+        ) {
           nodes {
-            ...StarredRepositoriesFragment
+            ...RepositoryFragment
           }
         }
       }

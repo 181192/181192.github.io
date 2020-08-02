@@ -33,55 +33,15 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: "gatsby-source-github",
+      resolve: "gatsby-source-graphql",
       options: {
+        typeName: "GitHub",
+        fieldName: "github",
+        url: "https://api.github.com/graphql",
         headers: {
-          Authorization: `Bearer ${process.env.GITHUB_ACCESS_TOKEN}`, // https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
+          Authorization: `Bearer ${process.env.GITHUB_ACCESS_TOKEN}`,
         },
-        queries: [
-          `query repositories {
-            user(login: "${process.env.GITHUB_USERNAME}") {
-              repositories(first: 10, privacy: PUBLIC, orderBy: {field: UPDATED_AT, direction: DESC}) {
-                nodes {
-                  name
-                  description
-                  createdAt
-                  nameWithOwner
-                  url
-                  sshUrl
-                  primaryLanguage {
-                    name
-                    color
-                  }
-                  repositoryTopics(last: 10) {
-                    nodes {
-                      url
-                      topic {
-                        name
-                      }
-                    }
-                  }
-                  languages(first: 5, orderBy: {field: SIZE, direction: DESC}) {
-                    nodes {
-                      name
-                      color
-                    }
-                  }
-                }
-              }
-              starredRepositories(first: 10,orderBy: {
-                field: STARRED_AT,
-                direction: DESC
-              }) {
-                nodes {
-                  nameWithOwner
-                  description
-                  url
-                }
-              }
-            }
-          }`,
-        ],
+        refetchInterval: 360,
       },
     },
   ],

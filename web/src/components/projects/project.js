@@ -1,5 +1,5 @@
 import React from "react"
-import { ProjectType } from "../../types"
+import { RepositoryType } from "../../types"
 import ProjectTags from "./project-tags"
 import ProjectLanguages from "./project-language"
 import ProjectIcon from "./project-icon"
@@ -38,6 +38,6 @@ const Project = props => {
   )
 }
 
-Project.propTypes = ProjectType
+Project.propTypes = RepositoryType
 
 export default Project

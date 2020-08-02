@@ -48,5 +48,8 @@ exports.createPages = async ({ actions }, options) => {
   actions.createPage({
     path: basePath,
     component: require.resolve("./src/templates/index.js"),
+    context: {
+      githubUserName: process.env.GITHUB_USERNAME
+    }
   })
 }

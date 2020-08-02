@@ -1,5 +1,5 @@
 import React from "react"
-import { ProjectType } from "../../types"
+import { RepositoryType } from "../../types"
 
 const ProjectLanguages = ({ languages }) => (
   <>
@@ -16,7 +16,7 @@ const ProjectLanguages = ({ languages }) => (
 )
 
 ProjectLanguages.propTypes = {
-  languages: ProjectType.languages,
+  languages: RepositoryType.languages,
 }
 
 export default ProjectLanguages

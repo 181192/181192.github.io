@@ -1,5 +1,5 @@
 import React from "react"
-import { ProjectType } from "../../types"
+import { RepositoryType } from "../../types"
 
 const ProjectTags = ({ tags }) => (
   <>
@@ -15,7 +15,7 @@ const ProjectTags = ({ tags }) => (
 )
 
 ProjectTags.propTypes = {
-  tags: ProjectType.repositoryTopics,
+  tags: RepositoryType.repositoryTopics,
 }
 
 export default ProjectTags

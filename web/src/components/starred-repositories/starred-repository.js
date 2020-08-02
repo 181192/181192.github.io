@@ -1,5 +1,5 @@
 import React from "react"
-import { StarredRepositoryType } from "../../types"
+import { RepositoryType } from "../../types"
 import { FaGithub } from "react-icons/fa"
 
 const StarredRepository = props => {
@@ -28,6 +28,6 @@ const StarredRepository = props => {
   )
 }
 
-StarredRepository.propTypes = StarredRepositoryType
+StarredRepository.propTypes = RepositoryType
 
 export default StarredRepository

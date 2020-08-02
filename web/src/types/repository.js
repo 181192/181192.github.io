@@ -1,7 +1,7 @@
 import { graphql } from "gatsby"
 import { shape, string, arrayOf } from "prop-types"
 
-export const ProjectType = {
+export const RepositoryType = {
   name: string.isRequired,
   description: string,
   createdAt: string,
@@ -10,7 +10,7 @@ export const ProjectType = {
   sshUrl: string.isRequired,
   primaryLanguage: shape({
     name: string.isRequired,
-    color: string.isRequired,
+    color: string,
   }),
   repositoryTopics: shape({
     nodes: arrayOf(
@@ -26,14 +26,14 @@ export const ProjectType = {
     nodes: arrayOf(
       shape({
         name: string.isRequired,
-        color: string.isRequired,
+        color: string,
       })
     ),
   }),
 }
 
 export const query = graphql`
-  fragment ProjectsFragment on GithubUserRepositoriesNodes {
+  fragment RepositoryFragment on GitHub_Repository {
     name
     description
     createdAt
@@ -44,13 +44,13 @@ export const query = graphql`
       name
       color
     }
-    languages {
+    languages(first: 10, orderBy: { field: SIZE, direction: DESC }) {
       nodes {
         name
         color
       }
     }
-    repositoryTopics {
+    repositoryTopics(first: 10) {
       nodes {
         topic {
           name
