@@ -3,6 +3,7 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     description: "Personal page of Kalli",
+    siteUrl: "https://www.kalli.no",
     locale: "en",
     showThemeLogo: true,
     title: "Kalli",
@@ -52,5 +53,6 @@ module.exports = {
         cookieDomain: "kalli.no",
       },
     },
+    `gatsby-plugin-sitemap`
   ],
 }
