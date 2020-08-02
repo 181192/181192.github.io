@@ -44,5 +44,14 @@ module.exports = {
         refetchInterval: 360,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+        head: false,
+        defer: true,
+        cookieDomain: "kalli.no",
+      },
+    },
   ],
 }
