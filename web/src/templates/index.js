@@ -52,11 +52,6 @@ export default IndexPage
 
 export const query = graphql`
   query($githubUserName: String!) {
-    site {
-      siteMetadata {
-        showThemeLogo
-      }
-    }
     profile: profileJson {
       ...ProfileFragment
     }
