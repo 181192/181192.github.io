@@ -1,5 +1,5 @@
 import React from "react"
-import { arrayOf, shape, ProfileType } from "../../types"
+import { ProfileType } from "../../types"
 import "./education-history.css"
 
 const EducationHistory = ({ history }) => {
@@ -36,7 +36,7 @@ const EducationHistory = ({ history }) => {
 }
 
 EducationHistory.propTypes = {
-  history: arrayOf(shape(ProfileType.education)),
+  history: ProfileType.education,
 }
 
 export default EducationHistory
