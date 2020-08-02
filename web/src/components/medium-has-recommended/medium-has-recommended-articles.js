@@ -15,7 +15,7 @@ const MediumHasRecommendedArticles = ({ mediumHasRecommendedArticles }) => {
 
   return (
     <>
-      <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
+      <h5 className="font-header font-semibold text-front text-sm uppercase mt-12 mb-3">
         My latest recommendations from{" "}
         <a
           className="underline"
@@ -33,16 +33,18 @@ const MediumHasRecommendedArticles = ({ mediumHasRecommendedArticles }) => {
         ))}
       </div>
       {mediumUrl && (
-        <p>
-          See more at{" "}
-          <a
-            className="underline"
-            href={`${mediumUrl}/has-recommended`}
-            alt="medium.com profile"
-            rel="noreferrer noopener"
-            target="_blank"
-          >{`${mediumUrl}/has-recommended`}</a>
-        </p>
+        <div className="text-sm text-center">
+          <p>
+            See more at{" "}
+            <a
+              className="underline"
+              href={`${mediumUrl}/has-recommended`}
+              alt="medium.com profile"
+              rel="noreferrer noopener"
+              target="_blank"
+            >my medium account</a>
+          </p>
+        </div>
       )}
     </>
   )
