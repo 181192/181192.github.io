@@ -1,12 +1,12 @@
 require("dotenv").config()
+const colors = require("./src/themes/gh-inspired")
 
 module.exports = {
   siteMetadata: {
-    description: "Personal page of Kalli",
-    siteUrl: "https://www.kalli.no",
-    locale: "en",
-    showThemeLogo: true,
     title: "Kalli",
+    description: "Personal page of Kalli",
+    locale: "en",
+    siteUrl: "https://www.kalli.no",
   },
   plugins: [
     {
@@ -28,9 +28,7 @@ module.exports = {
         path: "content/",
       },
     },
-    {
-      resolve: "gatsby-plugin-react-svg",
-    },
+    `gatsby-plugin-react-svg`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -53,6 +51,18 @@ module.exports = {
         cookieDomain: "kalli.no",
       },
     },
-    `gatsby-plugin-sitemap`
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Kalli",
+        short_name: "Kalli",
+        start_url: "/",
+        background_color: colors.back,
+        theme_color: colors.lead,
+        display: "standalone",
+        icon: "content/images/icon.png",
+      },
+    },
   ],
 }
