@@ -6,6 +6,7 @@
   "scripts": {
     "build": "yarn workspace web build",
     "develop": "yarn workspace web develop",
+    "deploy": "yarn workspace web deploy",
     "build:linkedin-scraper": "LINKEDIN_BASE_PATH=../web/content/profile yarn workspace linkedin-scraper build",
     "build:medium-rss-to-json": "MEDIUM_BASE_PATH=../web/content/medium yarn workspace medium-rss-to-json build"
   },
