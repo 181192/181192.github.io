@@ -14,9 +14,9 @@ const Sidebar = ({ profile, social }) => (
         <h1 className="font-header font-black text-front text-5xl leading-none break-words mb-6">
           {profile.name}
         </h1>
-        {profile.avatarUrl && (
+        {/* {profile.avatarUrl && (
           <ProfileImage url={profile.avatarUrl} title={profile.name} />
-        )}
+        )} */}
         <br />
         {profile.location && (
           <Location
@@ -27,10 +27,10 @@ const Sidebar = ({ profile, social }) => (
       </div>
 
       <div className="pt-8 pb-12 lg:py-0">
-        <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
+        {/* <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
           Connect
         </h5>
-        <SocialLinks social={social} />
+        <SocialLinks social={social} /> */}
       </div>
     </div>
   </aside>

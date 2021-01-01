@@ -43,13 +43,13 @@ const MainContent = ({
       {profile.userProfile.description && (
         <About about={profile.userProfile.description} />
       )}
-      {projects && (<Projects projects={projects} />)}
+      {/* {projects && (<Projects projects={projects} />)}
       {history && (<WorkHistory history={history} />)}
       {profile.education && (<EducationHistory history={profile.education} />)}
       {starredRepositories && (<StarredRepositories starredRepositories={starredRepositories} profile={githubUser} />)}
       {mediumHasRecommendedArticles && (<MediumHasRecommendedArticles
         mediumHasRecommendedArticles={mediumHasRecommendedArticles}
-      />)}
+      />)} */}
     </main>
   )
 }
