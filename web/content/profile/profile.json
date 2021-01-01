@@ -1,32 +1,47 @@
 {
-    "company": "Stacc Insight AS",
+    "company": "Visito AS",
     "focus": "Exploring Kubernetes & Go",
     "focus_url": "",
     "initials": "KALLI",
     "userProfile": {
         "fullName": "Kristoffer-Andre Kalliainen",
-        "title": "System Developer i Stacc - moving finance forward",
+        "title": "Partner & Senior Konsulent @ Visito",
         "location": {
             "city": "Rådal",
             "province": "Hordaland",
             "country": "Norway"
         },
-        "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQH54FzXERv_ug/profile-displayphoto-shrink_200_200/0?e=1601510400&v=beta&t=YDl9wdNFCsONqVnOC73FrM7SZUPC4F9PA5KZ-Ulu984",
+        "photo": "https://media-exp1.licdn.com/dms/image/C4E03AQH91ys5OHcp5A/profile-displayphoto-shrink_200_200/0/1609512709321?e=1614816000&v=beta&t=KR7Y05vu5gxhNAr54II3JLZdgj3XMXBOni0b1Xebnnc",
         "description": "",
         "url": "https://www.linkedin.com/in/kalliainen/"
     },
     "experiences": [
         {
-            "title": "System Developer",
-            "company": "Stacc - moving finance forward",
+            "title": "Partner & Senior Consultant",
+            "company": "Visito",
             "employmentType": "Heltid",
+            "location": {
+                "city": "Bergen",
+                "province": "Norge",
+                "country": null
+            },
+            "startDate": "2021-01-01T00:00:00+01:00",
+            "endDate": "2021-01-01T16:06:09+01:00",
+            "endDateIsPresent": false,
+            "description": null,
+            "durationInDays": 1
+        },
+        {
+            "title": "Bedriftsnavn Stacc",
+            "company": null,
+            "employmentType": null,
             "location": {
                 "city": "Bergen",
                 "province": null,
                 "country": "Norway"
             },
             "startDate": "Invalid date",
-            "endDate": "2020-07-31T09:37:01+02:00",
+            "endDate": "Invalid date",
             "endDateIsPresent": false,
             "description": null,
             "durationInDays": null
@@ -55,7 +70,7 @@
                 "province": null,
                 "country": "Norway"
             },
-            "startDate": "Invalid date",
+            "startDate": "2020-07-31T09:37:01+02:00",
             "endDate": "2018-11-01T00:00:00+01:00",
             "endDateIsPresent": false,
             "description": null,
