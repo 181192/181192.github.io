@@ -293,7 +293,6 @@ h4 { font-size: var(--step-0); font-weight: 600; line-height: 1.35; }
 .nested > li:first-child { padding-top: 0; }
 
 .plain { display: grid; gap: 0.625rem; }
-.aside { max-width: 62ch; color: var(--muted); }
 .plain li { max-width: 70ch; }
 
 /* Contact --------------------------------------------------------------- */

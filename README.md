@@ -2,7 +2,7 @@
 
 Personal page. Plain HTML and CSS in [`site/`](site) — no build step, no dependencies, no tracking.
 
-Pushing to `source` deploys `site/` to GitHub Pages via [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+Pushing to `main` copies `site/` to the `gh-pages` branch, which GitHub Pages serves. See [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
 
 Preview locally:
 
