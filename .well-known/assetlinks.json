@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "no.kalli.kimming",
+      "sha256_cert_fingerprints": ["73:75:9F:FA:5A:9A:27:CC:18:C9:F0:7C:54:18:03:3C:47:48:1C:61:F3:B4:35:55:9E:67:50:92:90:C3:94:B0"]
+    }
+  }
+]
